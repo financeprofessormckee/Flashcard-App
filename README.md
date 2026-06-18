@@ -38,8 +38,6 @@ app.js          All app logic and localStorage handling
 data/
   courses.json          Registry: courses and, for each, its list of modules
   fin6300module1.json   One file per module (id, title, cards)
-  econ101module1.json
-  econ101module2.json
   ...
 assets/
   images/       Optional images (currently empty)
