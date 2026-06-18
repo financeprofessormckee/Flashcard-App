@@ -117,26 +117,6 @@ Add objects to a module file's `cards` array:
 not by position, so you can reorder cards later without erasing anyone's progress. Never
 reuse an old `id` for different content.
 
-### Generating cards from slides (AI prompt)
-
-Writing cards by hand is the slow part. The `prompts/` folder contains a ready-to-share
-Word document — **`Generate Module Flashcards (AI Prompt).docx`** — that turns a module's
-lecture slides into the JSON a module needs. Any instructor can use it:
-
-1. Open the document and fill in the two values at the top of the prompt — the
-   course/topic name and the module number — for the module you're building. The AI
-   derives the module ID, title, and card-ID prefix from those (e.g. *Managerial Finance*,
-   module *1* → `module-1`, "Module 1: Managerial Finance", IDs `m1-card-001`, …).
-2. Start a chat with an AI assistant (Claude, ChatGPT, etc.), **attach the module's slides**
-   (PowerPoint or PDF), and paste in the prompt.
-3. Save the JSON module object it returns as its own file in `data/` (e.g.
-   `data/fin6300module2.json`), then register that file under the course's `modules` array
-   in `data/courses.json` (see **Add a module** above).
-
-The prompt is self-contained: it teaches the AI the exact schema, requires plain-text /
-valid JSON output, and uses module-prefixed card IDs (`m1-card-001`, …) so blocks generated
-separately never collide.
-
 ## How local progress works
 
 Progress is stored only in the student's browser using `localStorage` — it is never sent
