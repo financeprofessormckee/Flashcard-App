@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Flashcards</title>
+  <link rel="stylesheet" href="assets/cob-brand.css" />
+  <link rel="stylesheet" href="styles.css?v=2" />
+  <script src="app.js?v=2" defer></script>
+  <!-- Anonymous, cookieless usage counts (GoatCounter). Replace MYCODE. -->
+  <script data-goatcounter="https://epzmckee.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+  <!-- WT COB institutional masthead (shared) -->
+  <header class="cob-brand" role="banner">
+    <div class="cob-brand__inner">
+      <img class="cob-brand__seal" src="assets/cob-seal.png" alt="West Texas A&amp;M University · Paul and Virginia Engler College of Business seal">
+      <div class="cob-brand__wordmark">
+        <span class="cob-brand__university">West Texas A&amp;M University</span>
+        <span class="cob-brand__college">Paul and Virginia Engler College of Business</span>
+      </div>
+    </div>
+    <div class="cob-brand__rule"></div>
+  </header>
+
+  <main class="app">
+    <header class="header">
+      <div class="header__text">
+        <h1 class="header__title">Course Flashcards</h1>
+        <p class="header__subtitle">Review key concepts by course and module.</p>
+      </div>
+      <button id="themeToggle" type="button" class="theme-toggle" aria-pressed="false">
+        🌙 Dark
+      </button>
+    </header>
+
+    <section class="controls" aria-label="Course and module selection">
+      <div class="control">
+        <label for="courseSelect">Course</label>
+        <select id="courseSelect">
+          <option value="">Select a course…</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="moduleSelect">Module</label>
+        <select id="moduleSelect" disabled>
+          <option value="">Select a module…</option>
+        </select>
+      </div>
+    </section>
+
+    <div id="status" class="status" aria-live="polite">
+      <span id="statusPosition">Card 0 of 0</span>
+      <span id="statusKnown">Known: 0</span>
+      <span id="statusReview">Needs review: 0</span>
+    </div>
+
+    <button id="card" type="button" class="card" disabled>
+      <span id="cardText" class="card__text">Choose a course and module to begin.</span>
+      <span id="cardSide" class="card__side" aria-hidden="true"></span>
+    </button>
+
+    <section class="btn-group" aria-label="Navigation">
+      <button id="prevBtn" type="button" disabled>← Previous</button>
+      <button id="flipBtn" type="button" disabled>Flip</button>
+      <button id="nextBtn" type="button" disabled>Next →</button>
+    </section>
+
+    <section class="btn-group" aria-label="Mark this card">
+      <button id="knownBtn" type="button" class="btn-known" disabled>Knew it</button>
+      <button id="reviewBtn" type="button" class="btn-review" disabled>Needs review</button>
+    </section>
+
+    <section class="btn-group btn-group--utility" aria-label="Deck utilities">
+      <button id="shuffleBtn" type="button" disabled>Shuffle</button>
+      <button id="reviewModeBtn" type="button" disabled>Review missed</button>
+      <button id="resetBtn" type="button" disabled>Reset module</button>
+    </section>
+
+    <footer class="footer">
+      <p>Progress is saved only in this browser. Your instructor cannot see your individual results.</p>
+      <p>Anonymous, aggregate usage (visits and card activity) is counted to gauge overall use — no personal data is collected.</p>
+      <p class="footer__hint">Keyboard: ← / → move, Space or Enter flips, K = Knew it, J = Needs review.</p>
+    </footer>
+  </main>
+</body>
+</html>

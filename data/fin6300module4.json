@@ -1,0 +1,162 @@
+{
+  "id": "module-4",
+  "title": "Module 5: Time Value of Money",
+  "cards": [
+    {
+      "id": "m4-card-001",
+      "front": "What is the time value of money?",
+      "back": "The time value of money means a dollar today is worth more than a dollar received in the future."
+    },
+    {
+      "id": "m4-card-002",
+      "front": "Why is a dollar today worth more than a dollar in the future?",
+      "back": "Money received today can be invested to earn interest."
+    },
+    {
+      "id": "m4-card-003",
+      "front": "What does interest represent in time value of money?",
+      "back": "Interest is the rent paid for access to capital."
+    },
+    {
+      "id": "m4-card-004",
+      "front": "What three things does interest compensate lenders for?",
+      "back": "Interest compensates lenders for deferring consumption, expected inflation, and default risk."
+    },
+    {
+      "id": "m4-card-005",
+      "front": "What is Rule 1 of time value of money?",
+      "back": "It is only possible to compare or combine values at the same point in time."
+    },
+    {
+      "id": "m4-card-006",
+      "front": "What is Rule 2 of time value of money?",
+      "back": "To move a cash flow forward in time, you must compound it."
+    },
+    {
+      "id": "m4-card-007",
+      "front": "What is Rule 3 of time value of money?",
+      "back": "To move a cash flow backward in time, you must discount it."
+    },
+
+    {
+      "id": "m4-card-010",
+      "front": "In TVM formulas, what does r usually represent?",
+      "back": "r is the interest rate per period."
+    },
+    {
+      "id": "m4-card-011",
+      "front": "In TVM formulas, what does n or N usually represent?",
+      "back": "n or N is the number of periods."
+    },
+    {
+      "id": "m4-card-012",
+      "front": "What are the five main TVM calculator keys?",
+      "back": "N = number of periods, I/Y = interest rate per period, PV = present value, PMT = payment per period, and FV = future value."
+    },
+    {
+      "id": "m4-card-013",
+      "front": "How many TVM variables must be entered into a financial calculator to solve for answer?",
+      "back": "Enter 4 of the 5 TVM variables; the calculator solves for the missing fifth variable."
+    },
+    {
+      "id": "m4-card-014",
+      "front": "What sign convention should be used for PV and FV in a financial calculator?",
+      "back": "PV and FV should have opposite signs because one is typically an outflow and the other is an inflow."
+    },
+    {
+      "id": "m4-card-015",
+      "front": "What is the Excel syntax for present value and future value calculations?",
+      "back": "Use =PV(rate, nper, pmt, [fv]) and =FV(rate, nper, pmt, [pv])."
+    },
+    {
+      "id": "m4-card-016",
+      "front": "How should outflows be entered in Excel TVM functions?",
+      "back": "Enter outflows as negative values; the result will have the opposite sign."
+    },
+
+    {
+      "id": "m4-card-018",
+      "front": "What is an annuity?",
+      "back": "An annuity is a stream of equal cash flows C occurring at regular intervals for a fixed number of periods N."
+    },
+    {
+      "id": "m4-card-019",
+      "front": "When does the first payment of an ordinary annuity occur?",
+      "back": "The first payment arrives at the end of period 1."
+    },
+    {
+      "id": "m4-card-020",
+      "front": "What are examples of financial products that are annuities?",
+      "back": "Examples include mortgage payments, car loans, lottery payouts, and retirement savings plans."
+    },
+    {
+      "id": "m4-card-021",
+      "front": "What does the present value annuity formula calculate?",
+      "back": "It calculates the lump-sum price you would pay today to receive the stream of equal payments."
+    },
+    {
+      "id": "m4-card-022",
+      "front": "What does the future value annuity formula calculate?",
+      "back": "It calculates the accumulated balance after all payments are made with compounded interest."
+    },
+
+    {
+      "id": "m4-card-024",
+      "front": "In the annuity present value formula, what do C, r, and N represent?",
+      "back": "C = equal payment each period, r = rate per period, and N = number of periods."
+    },
+    {
+      "id": "m4-card-025",
+      "front": "What timing convention applies to the annuity present value formula?",
+      "back": "The formula gives the present value one period before the first payment."
+    },
+    {
+      "id": "m4-card-026",
+      "front": "If the first annuity payment is at the end of year 1, when is the annuity present value located?",
+      "back": "The present value is at year 0."
+    },
+    {
+      "id": "m4-card-027",
+      "front": "If the first annuity payment is at the end of year 5, when is the annuity present value from the annuity formula located?",
+      "back": "It is at year 4, so it must be discounted 4 more years to get today's value."
+    },
+
+    {
+      "id": "m4-card-031",
+      "front": "What is a perpetuity?",
+      "back": "A perpetuity is a series of equal cash flows C occurring at regular intervals forever, like an annuity with no end date."
+    },
+    {
+      "id": "m4-card-032",
+      "front": "Why does the present value of a perpetuity converge even though payments continue forever?",
+      "back": "Distant payments are discounted so heavily that their present values become very small."
+    },
+
+    {
+      "id": "m4-card-034",
+      "front": "What timing convention applies to the perpetuity present value formula?",
+      "back": "The formula gives the present value one period before the first payment."
+    },
+    {
+      "id": "m4-card-035",
+      "front": "At 5%, what is the approximate present value of $1,000 received in year 100?",
+      "back": "PV = 1000 / 1.05^100, which is approximately $7.60."
+    },
+    {
+      "id": "m4-card-036",
+      "front": "At 5%, what is the approximate present value of $1,000 received in year 500?",
+      "back": "The present value is approximately $0.00 because the payment is discounted so heavily."
+    },
+    {
+      "id": "m4-card-037",
+      "front": "How can a financial calculator approximate the value of a perpetuity?",
+      "back": "Set N = 10,000, PMT = C, FV = 0, and solve for PV."
+    },
+
+    {
+      "id": "m4-card-040",
+      "front": "When valuing annuities and perpetuities, what interest rate should be matched to the cash flows?",
+      "back": "Use the effective interest rate that matches the payment period."
+    }
+  ]
+}

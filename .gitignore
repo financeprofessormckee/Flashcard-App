@@ -1,0 +1,11 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling / Claude config (never publish)
+.claude/
+
+# Authoring artifacts (kept in the Dropbox working copy, not the site)
+*.docx
+prompts/

@@ -1,0 +1,267 @@
+:root {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --text: #1f2430;
+  --text-muted: #5b6472;
+  --border: #d6dae1;
+  --shadow: 0 2px 8px rgba(20, 30, 50, 0.08);
+  --accent: #2f5fd0;
+  --accent-text: #ffffff;
+  --known-bg: #e3f3e6;
+  --known-border: #4a9d5e;
+  --known-text: #1f5b30;
+  --review-bg: #fdeee0;
+  --review-border: #d08a2f;
+  --review-text: #7a4a10;
+  --focus: #1a3c9c;
+}
+
+[data-theme="dark"] {
+  --bg: #14171d;
+  --surface: #1f242e;
+  --text: #e7ebf2;
+  --text-muted: #a4adbd;
+  --border: #353c4a;
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  --accent: #5b86e8;
+  --accent-text: #0c0f14;
+  --known-bg: #1f3a27;
+  --known-border: #4a9d5e;
+  --known-text: #aee3ba;
+  --review-bg: #3a2c19;
+  --review-border: #d08a2f;
+  --review-text: #f0c891;
+  --focus: #8db0ff;
+}
+
+/* Shared WT COB masthead — adapt to dark theme (light mode stays as siblings) */
+[data-theme="dark"] .cob-brand { background: var(--surface); color: var(--text); }
+[data-theme="dark"] .cob-brand__university { color: var(--text); }
+[data-theme="dark"] .cob-brand__college { color: var(--text-muted); }
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 2.5rem;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.header__subtitle {
+  margin: 0.25rem 0 0;
+  color: var(--text-muted);
+}
+
+.theme-toggle {
+  flex-shrink: 0;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.control label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+select {
+  font-size: 1rem;
+  padding: 0.6rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  width: 100%;
+}
+
+select:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* Status */
+.status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* Flashcard */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 240px;
+  padding: 2rem 1.5rem;
+  margin-bottom: 1.25rem;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  font: inherit;
+}
+
+.card:disabled {
+  cursor: default;
+  color: var(--text-muted);
+}
+
+.card__text {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.card__side {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+/* Button groups */
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 0.85rem;
+}
+
+.btn-group--utility {
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  font: inherit;
+  font-size: 1rem;
+  padding: 0.7rem 1.1rem;
+  min-height: 44px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  flex: 1 1 auto;
+}
+
+.btn-group button {
+  flex: 1 1 30%;
+}
+
+button:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#flipBtn,
+.theme-toggle {
+  background: var(--accent);
+  color: var(--accent-text);
+  border-color: var(--accent);
+}
+
+.theme-toggle {
+  flex: 0 0 auto;
+}
+
+.btn-known {
+  background: var(--known-bg);
+  color: var(--known-text);
+  border-color: var(--known-border);
+}
+
+.btn-review {
+  background: var(--review-bg);
+  color: var(--review-text);
+  border-color: var(--review-border);
+}
+
+/* Focus states */
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 1rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+}
+
+.footer p {
+  margin: 0 0 0.4rem;
+}
+
+.footer__hint {
+  font-size: 0.8rem;
+}
+
+/* Wider screens: dropdowns side by side */
+@media (min-width: 560px) {
+  .controls {
+    flex-direction: row;
+  }
+  .control {
+    flex: 1 1 0;
+  }
+}

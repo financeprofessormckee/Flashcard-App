@@ -1,0 +1,181 @@
+{
+  "id": "module-7",
+  "title": "Module 8: Risk and Return",
+  "cards": [
+    {
+      "id": "m7-card-001",
+      "front": "What is the basic risk-reward tradeoff in finance?",
+      "back": "Risk-averse investors demand a higher expected return to accept a riskier investment."
+    },
+    {
+      "id": "m7-card-002",
+      "front": "What is expected return?",
+      "back": "Expected return is the return anticipated before making an investment, based on a probability distribution of possible outcomes."
+    },
+    {
+      "id": "m7-card-003",
+      "front": "What is risk in the context of investment returns?",
+      "back": "Risk is the possible variation in an investment's return."
+    },
+    {
+      "id": "m7-card-004",
+      "front": "Why is a U.S. Treasury security often treated as risk-free?",
+      "back": "It has near-zero variation in returns, so it is treated as having very little risk."
+    },
+    {
+      "id": "m7-card-005",
+      "front": "Why is a stock like Tesla considered highly risky?",
+      "back": "Its returns can vary widely, meaning it has large possible variation in outcomes."
+    },
+
+    {
+      "id": "m7-card-008",
+      "front": "What does variance measure for investment returns?",
+      "back": "Variance measures the expected squared deviation of returns from the mean return."
+    },
+
+    {
+      "id": "m7-card-010",
+      "front": "How is standard deviation used to compare investments?",
+      "back": "Standard deviation measures total risk. If two investments have the same expected return, the one with the lower standard deviation is strictly better."
+    },
+    {
+      "id": "m7-card-011",
+      "front": "If an investment has E[R] = 10% and standard deviation = 12.73%, what range contains most outcomes assuming an approximately normal distribution?",
+      "back": "Most outcomes are within one standard deviation: 10% - 12.73% to 10% + 12.73%, or -2.73% to 22.73%."
+    },
+    {
+      "id": "m7-card-012",
+      "front": "When probability distributions are unavailable, what can be used as a proxy for risk and return estimates?",
+      "back": "Historical returns can be used as a proxy, assuming past patterns persist."
+    },
+    {
+      "id": "m7-card-013",
+      "front": "What is unsystematic risk?",
+      "back": "Unsystematic risk is firm-specific or industry-specific risk. It is also called diversifiable or idiosyncratic risk."
+    },
+    {
+      "id": "m7-card-014",
+      "front": "Can investors eliminate unsystematic risk?",
+      "back": "Yes. Unsystematic risk can be eliminated by holding a diversified portfolio."
+    },
+    {
+      "id": "m7-card-015",
+      "front": "Are investors compensated for bearing unsystematic risk?",
+      "back": "No. Investors are not compensated for risk they can eliminate for free through diversification."
+    },
+    {
+      "id": "m7-card-016",
+      "front": "What is systematic risk?",
+      "back": "Systematic risk is market-wide, non-diversifiable risk that affects many firms or the economy as a whole."
+    },
+    {
+      "id": "m7-card-017",
+      "front": "Which type of risk commands a return premium?",
+      "back": "Only systematic risk commands a return premium."
+    },
+    {
+      "id": "m7-card-018",
+      "front": "Is a Fed interest rate increase systematic or unsystematic risk?",
+      "back": "It is systematic risk because it raises borrowing costs for all firms."
+    },
+    {
+      "id": "m7-card-019",
+      "front": "Is a recession systematic or unsystematic risk?",
+      "back": "It is systematic risk because demand falls economy-wide."
+    },
+    {
+      "id": "m7-card-020",
+      "front": "What does diversification do to portfolio risk?",
+      "back": "Diversification reduces portfolio risk by spreading investment across assets, eliminating much of the unsystematic risk."
+    },
+    {
+      "id": "m7-card-021",
+      "front": "Why does diversification have diminishing returns?",
+      "back": "As more securities are added, less additional unsystematic risk remains to eliminate, so each added security reduces risk by a smaller amount."
+    },
+    {
+      "id": "m7-card-022",
+      "front": "Why is the S&P 500 often considered close enough as a market proxy in practice?",
+      "back": "Diversification has diminishing returns, so a broad index like the S&P 500 captures much of the diversification benefit."
+    },
+    {
+      "id": "m7-card-023",
+      "front": "What is one limitation of using the S&P 500 as the market portfolio?",
+      "back": "It ignores assets such as real estate, private firms, and human capital, which can matter for broad or global analysis."
+    },
+    {
+      "id": "m7-card-024",
+      "front": "What does beta measure?",
+      "back": "Beta measures how sensitive a security's return is to market-wide, systematic shocks."
+    },
+    {
+      "id": "m7-card-025",
+      "front": "How do standard deviation and beta differ as risk measures?",
+      "back": "Standard deviation measures total risk, while beta measures only systematic risk."
+    },
+ 
+    {
+      "id": "m7-card-028",
+      "front": "What does a portfolio beta of 1 mean?",
+      "back": "The portfolio has the same systematic risk as the market."
+    },
+    {
+      "id": "m7-card-029",
+      "front": "What is the market-cap-weighted average beta of all stocks?",
+      "back": "By construction, the market-cap-weighted average beta of all stocks equals 1."
+    },
+
+
+    {
+      "id": "m7-card-033",
+      "front": "In CAPM, what is the market risk premium?",
+      "back": "The market risk premium is E[Rm] - rf."
+    },
+    {
+      "id": "m7-card-034",
+      "front": "In CAPM, what does beta i x (E[Rm] - rf) represent?",
+      "back": "It is the risk premium for bearing beta i units of systematic risk."
+    },
+    {
+      "id": "m7-card-035",
+      "front": "How does CAPM connect risk and return to time value of money analysis?",
+      "back": "CAPM estimates the required return or discount rate instead of treating the discount rate as a given plug-in number."
+    },
+    {
+      "id": "m7-card-036",
+      "front": "What is a practical use of CAPM?",
+      "back": "CAPM can be used to estimate the required return, or discount rate, for a stock or project."
+    },
+    {
+      "id": "m7-card-037",
+      "front": "What does the Security Market Line plot?",
+      "back": "The Security Market Line plots each asset's required return against its beta."
+    },
+    {
+      "id": "m7-card-038",
+      "front": "What is the slope of the Security Market Line?",
+      "back": "The slope is the market risk premium."
+    },
+    {
+      "id": "m7-card-039",
+      "front": "What is the intercept of the Security Market Line?",
+      "back": "The intercept is the risk-free rate, rf."
+    },
+    {
+      "id": "m7-card-040",
+      "front": "Where do correctly priced assets lie relative to the Security Market Line?",
+      "back": "All correctly priced assets lie on the Security Market Line."
+    },
+    {
+      "id": "m7-card-041",
+      "front": "What does it mean if an asset plots above the Security Market Line?",
+      "back": "It is underpriced, so the signal is to buy."
+    },
+    {
+      "id": "m7-card-042",
+      "front": "What does it mean if an asset plots below the Security Market Line?",
+      "back": "It is overpriced, so the signal is to sell."
+    }
+  ]
+}

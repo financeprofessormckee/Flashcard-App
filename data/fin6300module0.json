@@ -1,0 +1,161 @@
+{
+  "id": "module-0",
+  "title": "Module 1: Managerial Finance",
+  "cards": [
+    {
+      "id": "m0-card-001",
+      "front": "What are the five foundational principles of finance?",
+      "back": "Cash flow, Time Value of Money, Risk-Reward Tradeoff, Market Prices or Efficient Markets, and Agency Problems."
+    },
+    {
+      "id": "m0-card-002",
+      "front": "What does the cash flow principle say determines a firm's value?",
+      "back": "Cash flow, not accounting profits, determines the firm's value."
+    },
+    {
+      "id": "m0-card-003",
+      "front": "Why are accounting profits not the same as cash flow?",
+      "back": "A firm can show a profit without generating cash flow, or show a loss while still generating cash."
+    },
+    {
+      "id": "m0-card-004",
+      "front": "What type of cash flows are used to evaluate financial decisions for a firm?",
+      "back": "Incremental, or marginal, cash flows are used to evaluate financial decisions."
+    },
+    {
+      "id": "m0-card-005",
+      "front": "When is a cash flow not relevant to a financial decision?",
+      "back": "If the cash flow will happen regardless of the choice made, it is not relevant to the decision."
+    },
+    {
+      "id": "m0-card-006",
+      "front": "What is the Time Value of Money principle?",
+      "back": "The value of a dollar today is not the same as the value of a dollar at a different point in time."
+    },
+    {
+      "id": "m0-card-007",
+      "front": "In general, how does the timing of a cash flow affect its value?",
+      "back": "A dollar of cash flow is usually worth less the farther in the future it is received."
+    },
+    {
+      "id": "m0-card-008",
+      "front": "If offered $1 today or $1 at the end of the semester, which would finance typically prefer and why?",
+      "back": "$1 today, because money received sooner is generally worth more due to the Time Value of Money."
+    },
+    {
+      "id": "m0-card-009",
+      "front": "What is the agency problem in a public corporation?",
+      "back": "Shareholders hire executives to manage the firm, but what is best for executives is not always what is best for shareholders."
+    },
+    {
+      "id": "m0-card-010",
+      "front": "Why do shareholders hire executives such as a CEO?",
+      "back": "Shareholders hire executives to manage the firm on their behalf, often because the executives have greater management skill."
+    },
+    {
+      "id": "m0-card-011",
+      "front": "What is the main challenge created by agency problems for corporations?",
+      "back": "The challenge is ensuring that managers run the firm as shareholders want."
+    },
+    {
+      "id": "m0-card-012",
+      "front": "What are the three main problems finance solves for a business?",
+      "back": "Capital Budgeting, Capital Structure, and Working Capital Management."
+    },
+    {
+      "id": "m0-card-013",
+      "front": "What question does capital budgeting answer?",
+      "back": "Capital budgeting asks what long-term investments the business should make."
+    },
+    {
+      "id": "m0-card-014",
+      "front": "What cash flow question is central to capital budgeting?",
+      "back": "Will the investment increase incremental cash flows?"
+    },
+    {
+      "id": "m0-card-015",
+      "front": "What question does capital structure answer?",
+      "back": "Capital structure asks how the business should raise money to pay for investments."
+    },
+    {
+      "id": "m0-card-016",
+      "front": "What are common ways a firm can raise money for investments?",
+      "back": "A firm can issue stock, borrow money, or reinvest profits."
+    },
+    {
+      "id": "m0-card-017",
+      "front": "What question does working capital management answer?",
+      "back": "Working capital management asks how the business should manage cash flows for short-term operations."
+    },
+    {
+      "id": "m0-card-018",
+      "front": "What is a key purpose of working capital management?",
+      "back": "It helps ensure the firm has enough cash on hand to meet payroll, expenses, and other short-term needs."
+    },
+    {
+      "id": "m0-card-019",
+      "front": "What do jobs in finance generally help businesses with?",
+      "back": "They generally assist with one or more of the main finance roles in business."
+    },
+    {
+      "id": "m0-card-020",
+      "front": "Besides business finance, what other area may finance jobs help manage?",
+      "back": "Some finance jobs assist with managing personal finance."
+    },
+    {
+      "id": "m0-card-021",
+      "front": "Why is overlap with accounting common in finance jobs?",
+      "back": "Many finance jobs involve business decisions and financial information, so overlap with accounting is common."
+    },
+    {
+      "id": "m0-card-022",
+      "front": "Why do finance jobs often require mathematical skills?",
+      "back": "Finance work often involves analysis and calculations, and the need for math skills can help drive up salaries."
+    },
+    {
+      "id": "m0-card-025",
+      "front": "What is the traditional purpose of a firm?",
+      "back": "The traditional answer is that a firm's purpose is to maximize value for its owners."
+    },
+    {
+      "id": "m0-card-026",
+      "front": "How is the firm's traditional goal often summarized?",
+      "back": "It is often summarized as maximizing wealth for its owners."
+    },
+    {
+      "id": "m0-card-027",
+      "front": "Who popularized the traditional view that a firm's purpose is to maximize value for its owners?",
+      "back": "Milton Friedman popularized this view in 1970."
+    },
+    {
+      "id": "m0-card-028",
+      "front": "Why is maximizing wealth considered a compromise among owners?",
+      "back": "There is near-universal consensus among owners that more money is good, and owners can spend the extra money on whatever they value."
+    },
+    {
+      "id": "m0-card-029",
+      "front": "What does maximizing wealth ultimately mean in finance?",
+      "back": "It means maximizing the present value of cash flows generated for owners."
+    },
+    {
+      "id": "m0-card-030",
+      "front": "How does the wealth maximization goal connect to the cash flow principle?",
+      "back": "Wealth maximization focuses on the present value of cash flows generated for owners, so cash flow is central to firm value."
+    },
+    {
+      "id": "m0-card-031",
+      "front": "Who owns public corporations?",
+      "back": "Public corporations are owned by shareholders."
+    },
+    {
+      "id": "m0-card-032",
+      "front": "What is one different perspective on a firm's goal besides owner wealth maximization?",
+      "back": "A broader view considers other stakeholders and may include following laws and contractual agreements with unions or banks."
+    },
+    {
+      "id": "m0-card-033",
+      "front": "Can stakeholders also be owners of a firm?",
+      "back": "Yes. Stakeholders may also be owners of the firm."
+    }
+  ]
+}

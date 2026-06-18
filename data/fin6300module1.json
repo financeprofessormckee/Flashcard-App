@@ -1,0 +1,371 @@
+{
+  "id": "module-1",
+  "title": "Module 2: Managerial Finance",
+  "cards": [
+    {
+      "id": "m1-card-001",
+      "front": "Why do firms need to raise capital?",
+      "back": "Firms need capital, or cash, to fund operations and investments."
+    },
+    {
+      "id": "m1-card-002",
+      "front": "What are the two main sources of capital for firms?",
+      "back": "The two main sources are reinvestment of the firm's own profits and outside investment from savers."
+    },
+    {
+      "id": "m1-card-003",
+      "front": "What is reinvestment as a source of capital?",
+      "back": "Reinvestment occurs when a company uses its own profits to fund operations or investments."
+    },
+    {
+      "id": "m1-card-004",
+      "front": "What is a limitation of reinvestment as a source of capital?",
+      "back": "Reinvestment is only available when the firm is profitable."
+    },
+    {
+      "id": "m1-card-005",
+      "front": "What is outside investment?",
+      "back": "Outside investment occurs when savers provide capital to a firm."
+    },
+    {
+      "id": "m1-card-006",
+      "front": "What role do financial markets primarily play in raising capital?",
+      "back": "Financial markets primarily facilitate outside investment by helping transfer capital from savers to firms."
+    },
+    {
+      "id": "m1-card-007",
+      "front": "How do savers promote efficiency in a free market?",
+      "back": "Savers have a natural incentive to seek out the most productive borrowers, which promotes efficiency."
+    },
+    {
+      "id": "m1-card-008",
+      "front": "What are the three main methods of capital transfer?",
+      "back": "The three methods are direct transfer, indirect transfer via an investment bank, and indirect transfer via a financial intermediary."
+    },
+    {
+      "id": "m1-card-009",
+      "front": "What is direct transfer of capital?",
+      "back": "Direct transfer occurs when a firm deals directly with investors."
+    },
+    {
+      "id": "m1-card-010",
+      "front": "Why is direct transfer considered the least effective method of capital transfer?",
+      "back": "It is a more expensive and difficult method for matching savers and borrowers."
+    },
+    {
+      "id": "m1-card-011",
+      "front": "When is direct transfer typically used?",
+      "back": "It is typically used when a firm cannot access indirect financing, such as because of small size."
+    },
+    {
+      "id": "m1-card-012",
+      "front": "What is a private placement?",
+      "back": "A private placement is when a company raises capital from a select group of investors."
+    },
+    {
+      "id": "m1-card-013",
+      "front": "Why is a private placement considered a direct capital transfer?",
+      "back": "No intermediary stands between the firm and the investor."
+    },
+    {
+      "id": "m1-card-014",
+      "front": "How might financial intermediaries still be involved in a private placement?",
+      "back": "The firm may have been introduced to the investors through prior relationships with financial intermediaries."
+    },
+    {
+      "id": "m1-card-015",
+      "front": "What type of security is more commonly involved in private placements?",
+      "back": "Private placements more commonly involve debt securities rather than stock."
+    },
+    {
+      "id": "m1-card-016",
+      "front": "What role may an investment bank play in a private placement?",
+      "back": "An investment bank may act as an advisor, but it does not underwrite the private placement."
+    },
+    {
+      "id": "m1-card-017",
+      "front": "What is one advantage of a private placement related to paperwork?",
+      "back": "Private placements can be faster and cheaper because they require less paperwork."
+    },
+    {
+      "id": "m1-card-018",
+      "front": "Why can private placements be easier to negotiate?",
+      "back": "They allow the firm to negotiate directly with investors."
+    },
+    {
+      "id": "m1-card-019",
+      "front": "Why can private placements lead to higher costs for the firm?",
+      "back": "They are riskier for investors, so investors require higher compensation, raising costs for the firm."
+    },
+    {
+      "id": "m1-card-020",
+      "front": "What are two disadvantages of private placements for the issuing firm?",
+      "back": "They may involve higher interest rates and more restrictive covenants."
+    },
+    {
+      "id": "m1-card-021",
+      "front": "What is indirect transfer of capital?",
+      "back": "Indirect transfer occurs when a financial company helps connect the saver and borrower."
+    },
+    {
+      "id": "m1-card-022",
+      "front": "Why are amounts raised through indirect transfer generally larger?",
+      "back": "Larger amounts make it worth the intermediary's time and cost."
+    },
+    {
+      "id": "m1-card-023",
+      "front": "What types of firms tend to use indirect transfer?",
+      "back": "Firms using indirect transfer tend to be larger and have an established history of profits or revenue."
+    },
+    {
+      "id": "m1-card-024",
+      "front": "Why does indirect transfer have a higher cost?",
+      "back": "The financial company must be compensated for its services."
+    },
+    {
+      "id": "m1-card-025",
+      "front": "What is indirect transfer via an investment bank?",
+      "back": "It occurs when a firm hires an investment bank to raise capital from investors."
+    },
+    {
+      "id": "m1-card-026",
+      "front": "How does security risk affect issuance expenses?",
+      "back": "Riskier securities have higher expenses because of the risk-reward tradeoff."
+    },
+    {
+      "id": "m1-card-027",
+      "front": "How does issuance size affect per-unit issuance expenses?",
+      "back": "Larger issuances have lower per-unit expenses because fixed costs are spread over more units."
+    },
+    {
+      "id": "m1-card-029",
+      "front": "What is indirect transfer via a financial intermediary?",
+      "back": "Savers invest with a financial intermediary, which pools savings and invests with borrowers."
+    },
+    {
+      "id": "m1-card-030",
+      "front": "What are examples of financial intermediaries?",
+      "back": "Examples include mutual funds, pension funds, and commercial banks."
+    },
+    {
+      "id": "m1-card-031",
+      "front": "How does a financial intermediary reduce effort for savers?",
+      "back": "It reduces the effort required for savers to identify good borrowers."
+    },
+    {
+      "id": "m1-card-032",
+      "front": "How does a financial intermediary reduce risk for savers?",
+      "back": "It diversifies savings across many borrowers, which reduces risk."
+    },
+    {
+      "id": "m1-card-033",
+      "front": "Is there one single financial market?",
+      "back": "No. There are numerous separate financial markets."
+    },
+    {
+      "id": "m1-card-034",
+      "front": "What is the money market?",
+      "back": "The money market is the market for short-term financial securities with maturities of less than 1 year."
+    },
+    {
+      "id": "m1-card-035",
+      "front": "What is an example of a money market security?",
+      "back": "A U.S. Treasury bill maturing in 1 month is an example."
+    },
+    {
+      "id": "m1-card-036",
+      "front": "How do risk and expected return generally compare in the money market?",
+      "back": "Money market securities generally have lower risk and lower expected return."
+    },
+    {
+      "id": "m1-card-037",
+      "front": "What is the capital market?",
+      "back": "The capital market is the market for long-term financial securities with maturities of more than 1 year."
+    },
+    {
+      "id": "m1-card-038",
+      "front": "What are examples of capital market securities?",
+      "back": "Examples include a 30-year U.S. Treasury bond and common stock, which has no maturity date."
+    },
+    {
+      "id": "m1-card-039",
+      "front": "How do risk and expected return generally compare in the capital market?",
+      "back": "Capital market securities generally have higher risk and higher expected return."
+    },
+    {
+      "id": "m1-card-040",
+      "front": "What key question distinguishes spot markets from futures markets?",
+      "back": "The key question is when the buyer receives the security."
+    },
+    {
+      "id": "m1-card-041",
+      "front": "If the buyer receives the security immediately, what type of market is it?",
+      "back": "It is a spot market."
+    },
+    {
+      "id": "m1-card-043",
+      "front": "What does an Employee Stock Purchase Plan, or ESPP, allow employees to do?",
+      "back": "An ESPP allows employees to purchase company stock at a small discount to the market price."
+    },
+    {
+      "id": "m1-card-044",
+      "front": "What are two employer-specific rules that can govern employee stock plans?",
+      "back": "Rules may include the vesting schedule and when the stock may be sold."
+    },
+    {
+      "id": "m1-card-045",
+      "front": "What key question distinguishes a public offering from a private placement?",
+      "back": "The key question is who is allowed to purchase the security."
+    },
+    {
+      "id": "m1-card-046",
+      "front": "What is a public offering?",
+      "back": "A public offering is a sale of securities in which anyone is allowed to buy the security."
+    },
+    {
+      "id": "m1-card-047",
+      "front": "If anyone can buy a security, is it a public offering or a private placement?",
+      "back": "It is a public offering."
+    },
+    {
+      "id": "m1-card-049",
+      "front": "What key question distinguishes a primary market transaction from a secondary market transaction?",
+      "back": "The key question is whether the borrowing firm is receiving the cash."
+    },
+    {
+      "id": "m1-card-050",
+      "front": "What is a primary market transaction?",
+      "back": "A primary market transaction occurs when a newly issued security is sold directly by the firm."
+    },
+    {
+      "id": "m1-card-051",
+      "front": "If the borrowing firm receives the cash from a security sale, what type of market is it?",
+      "back": "It is a primary market transaction."
+    },
+    {
+      "id": "m1-card-052",
+      "front": "What are two examples of primary market transactions?",
+      "back": "Examples include an IPO and a new U.S. Treasury issuance."
+    },
+    {
+      "id": "m1-card-053",
+      "front": "Do most transactions occur in primary markets?",
+      "back": "No. Most transactions do not occur in primary markets."
+    },
+    {
+      "id": "m1-card-054",
+      "front": "What is a secondary market transaction?",
+      "back": "A secondary market transaction occurs when a security is sold by anyone other than the issuing firm."
+    },
+    {
+      "id": "m1-card-055",
+      "front": "If someone other than the issuing firm receives the cash from a security sale, what type of market is it?",
+      "back": "It is a secondary market transaction."
+    },
+    {
+      "id": "m1-card-056",
+      "front": "What is an example of a secondary market transaction?",
+      "back": "Buying shares of stock on the NYSE is a secondary market transaction."
+    },
+    {
+      "id": "m1-card-057",
+      "front": "Does a secondary market transaction directly raise capital for the issuing firm?",
+      "back": "No. A secondary market transaction does not directly raise capital for the firm."
+    },
+    {
+      "id": "m1-card-058",
+      "front": "What is an organized exchange?",
+      "back": "An organized exchange is a formal market where listed securities trade, such as the NYSE or NASDAQ."
+    },
+    {
+      "id": "m1-card-059",
+      "front": "What are examples of organized exchanges?",
+      "back": "Examples include the NYSE and NASDAQ."
+    },
+    {
+      "id": "m1-card-060",
+      "front": "What requirements may an organized exchange impose on listed companies?",
+      "back": "An exchange may impose corporate governance standards, minimum stock price requirements, listing fees, and other rules."
+    },
+    {
+      "id": "m1-card-061",
+      "front": "What is one disadvantage of listing a security on an organized exchange?",
+      "back": "Listing on an organized exchange has higher costs."
+    },
+    {
+      "id": "m1-card-062",
+      "front": "What is one advantage of listing a security on an organized exchange?",
+      "back": "It gives the security access to a larger, more liquid secondary market."
+    },
+    {
+      "id": "m1-card-063",
+      "front": "What is an over-the-counter, or OTC, market?",
+      "back": "An OTC market is a market where securities are not listed on an organized exchange."
+    },
+    {
+      "id": "m1-card-064",
+      "front": "How are OTC trades negotiated?",
+      "back": "OTC trades are negotiated directly between the buyer and seller."
+    },
+    {
+      "id": "m1-card-065",
+      "front": "Why might a security trade over the counter instead of on an organized exchange?",
+      "back": "The security may not meet exchange listing requirements."
+    },
+    {
+      "id": "m1-card-066",
+      "front": "What is market efficiency?",
+      "back": "Market efficiency is the degree to which market prices reflect the true, or intrinsic, value of an asset."
+    },
+    {
+      "id": "m1-card-067",
+      "front": "Is market efficiency all-or-nothing?",
+      "back": "No. Efficiency is a spectrum, so markets can be more or less efficient."
+    },
+    {
+      "id": "m1-card-068",
+      "front": "What determines the three threshold levels of market efficiency?",
+      "back": "They are based on what information is reflected in market prices."
+    },
+    {
+      "id": "m1-card-069",
+      "front": "What is weak-form market efficiency?",
+      "back": "Weak-form efficiency means prices reflect all past price information."
+    },
+    {
+      "id": "m1-card-070",
+      "front": "What is the implication of weak-form market efficiency?",
+      "back": "Analyzing historical price trends cannot be used to predict future prices."
+    },
+    {
+      "id": "m1-card-071",
+      "front": "What is semi-strong form market efficiency?",
+      "back": "Semi-strong form efficiency means prices reflect all publicly available information."
+    },
+    {
+      "id": "m1-card-072",
+      "front": "What is the implication of semi-strong form market efficiency?",
+      "back": "No publicly available information can be used to earn abnormal returns."
+    },
+    {
+      "id": "m1-card-073",
+      "front": "What is strong-form market efficiency?",
+      "back": "Strong-form efficiency means prices reflect all information, both public and private."
+    },
+    {
+      "id": "m1-card-074",
+      "front": "What is the implication of strong-form market efficiency?",
+      "back": "Even insider information cannot be used to generate abnormal returns."
+    },
+    {
+      "id": "m1-card-075",
+      "front": "What level of efficiency do major financial markets approximately reach?",
+      "back": "Major markets are approximately semi-strong efficient but fall short of strong-form efficiency."
+    },
+    {
+      "id": "m1-card-076",
+      "front": "How does market efficiency vary across markets?",
+      "back": "Efficiency varies by market; smaller and less frequently traded markets tend to be less efficient."
+    }
+  ]
+}

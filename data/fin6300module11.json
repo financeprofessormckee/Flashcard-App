@@ -1,0 +1,141 @@
+{
+  "id": "module-11",
+  "title": "Module 12: Working Capital Management",
+  "cards": [
+    {
+      "id": "m11-card-001",
+      "front": "What is net working capital?",
+      "back": "Net working capital is current assets minus current liabilities: NWC = Current Assets - Current Liabilities."
+    },
+    {
+      "id": "m11-card-002",
+      "front": "What are the main current assets in working capital management?",
+      "back": "Current assets include cash, inventory, and accounts receivable."
+    },
+    {
+      "id": "m11-card-003",
+      "front": "What role does cash play as a current asset?",
+      "back": "Cash acts as a liquid buffer for the firm."
+    },
+    {
+      "id": "m11-card-004",
+      "front": "What is inventory in working capital management?",
+      "back": "Inventory is goods held for sale."
+    },
+    {
+      "id": "m11-card-005",
+      "front": "What are accounts receivable?",
+      "back": "Accounts receivable are sales that have been made but not yet collected in cash."
+    },
+    {
+      "id": "m11-card-006",
+      "front": "What are the main current liabilities in working capital management?",
+      "back": "Current liabilities include accounts payable, short-term bank loans, commercial paper, and accrued liabilities."
+    },
+    {
+      "id": "m11-card-007",
+      "front": "What are accounts payable?",
+      "back": "Accounts payable are purchases the firm has made but not yet paid for."
+    },
+    {
+      "id": "m11-card-008",
+      "front": "What is a relaxed current asset investment policy?",
+      "back": "A relaxed policy uses a high level of current assets relative to sales, which lowers risk but reduces efficiency."
+    },
+    {
+      "id": "m11-card-009",
+      "front": "What is a tight current asset investment policy?",
+      "back": "A tight policy uses a low level of current assets relative to sales, which increases efficiency but raises disruption risk."
+    },
+    {
+      "id": "m11-card-010",
+      "front": "How can customer relationships affect accounts receivable management?",
+      "back": "A firm must consider how aggressively it can collect accounts receivable without losing customers."
+    },
+    {
+      "id": "m11-card-011",
+      "front": "How can technology and processes affect inventory policy?",
+      "back": "Strong systems may allow just-in-time inventory, while weaker systems may require a larger inventory buffer."
+    },
+    {
+      "id": "m11-card-012",
+      "front": "What is the maturity matching financing approach?",
+      "back": "Maturity matching means matching the maturity of liabilities approximately to the life of the assets being financed. It balances risk and cost."
+    },
+    {
+      "id": "m11-card-013",
+      "front": "Under maturity matching, how should inventory expected to sell in 30 days be financed?",
+      "back": "It should be financed with roughly a 30-day bank loan."
+    },
+    {
+      "id": "m11-card-014",
+      "front": "Under maturity matching, how should equipment lasting 7 years be financed?",
+      "back": "It should be financed with roughly 7-year debt."
+    },
+    {
+      "id": "m11-card-015",
+      "front": "What is the risk of financing an asset with debt that is too long-term?",
+      "back": "The firm may still be paying for long-term debt after the asset is already gone."
+    },
+    {
+      "id": "m11-card-016",
+      "front": "What is the risk of financing an asset with debt that is too short-term?",
+      "back": "The firm must refinance repeatedly, and rising rates can become costly."
+    },
+    {
+      "id": "m11-card-017",
+      "front": "What is an aggressive financing approach?",
+      "back": "An aggressive approach uses debt with a shorter maturity than the asset life. It is usually cheaper but riskier because the firm must refinance frequently."
+    },
+    {
+      "id": "m11-card-018",
+      "front": "Why can aggressive financing reduce cost?",
+      "back": "Short-term interest rates are usually lower, which can reduce financing cost."
+    },
+    {
+      "id": "m11-card-019",
+      "front": "What is a conservative financing approach?",
+      "back": "A conservative approach uses longer-maturity financing. It is costlier but safer."
+    },
+
+    {
+      "id": "m11-card-021",
+      "front": "What does the cash conversion cycle measure?",
+      "back": "The CCC measures the days of cash tied up between paying for inputs and receiving cash from customers."
+    },
+    {
+      "id": "m11-card-022",
+      "front": "How should the cash conversion cycle be interpreted as a financing need?",
+      "back": "The CCC is the length of time the firm must borrow to bridge the gap between cash outflows and cash inflows."
+    },
+    {
+      "id": "m11-card-023",
+      "front": "What is the inventory conversion period?",
+      "back": "The inventory conversion period, or ICP, is the number of days it takes to sell inventory."
+    },
+    {
+      "id": "m11-card-024",
+      "front": "What is the average collection period?",
+      "back": "The average collection period, or ACP, is the number of days it takes to collect cash after a sale."
+    },
+    {
+      "id": "m11-card-025",
+      "front": "What is the payables deferral period?",
+      "back": "The payables deferral period, or PDP, is the number of days before the firm pays its suppliers."
+    },
+
+
+    {
+      "id": "m11-card-029",
+      "front": "How can a firm reduce its cash conversion cycle?",
+      "back": "A firm can reduce CCC by shortening the inventory conversion period, shortening the average collection period, or extending the payables deferral period."
+    },
+    {
+      "id": "m11-card-030",
+      "front": "Why does reducing the cash conversion cycle reduce financing needs?",
+      "back": "A shorter CCC means cash is tied up for fewer days, so the firm needs less short-term financing."
+    }
+
+
+  ]
+}

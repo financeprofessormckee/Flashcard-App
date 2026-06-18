@@ -1,0 +1,178 @@
+{
+  "id": "module-8",
+  "title": "Module 9: Capital Budgeting",
+  "cards": [
+    {
+      "id": "m8-card-001",
+      "front": "What is capital budgeting?",
+      "back": "Capital budgeting is the process of evaluating long-term investment projects to decide whether the firm should commit resources."
+    },
+    {
+      "id": "m8-card-002",
+      "front": "What are the main inputs to a capital budgeting decision?",
+      "back": "The main inputs are estimates of incremental free cash flows and a WACC, or required rate of return."
+    },
+    {
+      "id": "m8-card-003",
+      "front": "What is the output of a capital budgeting analysis?",
+      "back": "The output is a decision to accept or reject the project."
+    },
+    {
+      "id": "m8-card-004",
+      "front": "What is the guiding principle for accepting a capital budgeting project?",
+      "back": "Accept a project only if it increases firm value and makes the firm's owners better off."
+    },
+    {
+      "id": "m8-card-005",
+      "front": "What is the payback period?",
+      "back": "The payback period is the number of years required for cumulative incremental cash flows to recover the initial investment."
+    },
+    {
+      "id": "m8-card-006",
+      "front": "What is the payback period decision rule?",
+      "back": "Accept the project if its payback period is less than or equal to a chosen maximum payback period; reject it otherwise."
+    },
+    {
+      "id": "m8-card-007",
+      "front": "Why is the maximum acceptable payback period considered arbitrary?",
+      "back": "It is a chosen benchmark that is not grounded in financial theory."
+    },
+
+    {
+      "id": "m8-card-009",
+      "front": "What are the main limitations of the payback period method?",
+      "back": "It ignores the time value of money, ignores all cash flows after the payback date, and uses an arbitrary maximum payback benchmark."
+    },
+    {
+      "id": "m8-card-010",
+      "front": "What is a practical use of the payback period method?",
+      "back": "It can be used as a fast initial filter for a large number of project proposals, especially to eliminate projects that never pay back or take decades to do so."
+    },
+    {
+      "id": "m8-card-011",
+      "front": "What is net present value, or NPV, used for in capital budgeting?",
+      "back": "NPV is the gold standard decision rule because it directly measures the value added by a project."
+    },
+    {
+      "id": "m8-card-012",
+      "front": "For mutually exclusive projects, which method should be used to rank projects?",
+      "back": "Mutually exclusive projects should be ranked using NPV."
+    },
+    {
+      "id": "m8-card-013",
+      "front": "What is the profitability index, or PI?",
+      "back": "PI = PV of future cash flows / absolute value of the initial investment."
+    },
+    {
+      "id": "m8-card-014",
+      "front": "What is the profitability index decision rule?",
+      "back": "Accept if PI > 1, which is equivalent to NPV > 0. Reject if PI < 1, which is equivalent to NPV < 0."
+    },
+    {
+      "id": "m8-card-015",
+      "front": "A project has PV of future cash flows of $47,675 and an initial cost of $40,000. What is its profitability index, and should it be accepted?",
+      "back": "PI = 47,675 / 40,000 = 1.192. Since 1.192 > 1, accept the project."
+    },
+    {
+      "id": "m8-card-016",
+      "front": "How is IRR used as a capital budgeting decision rule?",
+      "back": "Compare IRR to the WACC. If IRR is greater than the WACC, accept the project."
+    },
+    {
+      "id": "m8-card-017",
+      "front": "A project has IRR = 19.94% and WACC = 12%. Should it be accepted?",
+      "back": "Yes. Since 19.94% > 12%, accept the project."
+    },
+    {
+      "id": "m8-card-018",
+      "front": "Buff Enterprises has cash flows of -$50M, $30M, $30M, $20M, $20M, and $10M with WACC = 12%. If IRR = 41.49%, should the project be accepted?",
+      "back": "Yes. Since 41.49% > 12%, accept the project."
+    },
+    {
+      "id": "m8-card-019",
+      "front": "When can IRR fail?",
+      "back": "IRR can fail with sign-change cash flows because it can produce multiple solutions."
+    },
+    {
+      "id": "m8-card-020",
+      "front": "Why can IRR give the wrong ranking for mutually exclusive projects?",
+      "back": "IRR can rank a project higher because its cash flows arrive sooner, even if another project creates more total firm value. NPV is the correct ranking method."
+    },
+    {
+      "id": "m8-card-021",
+      "front": "Project A has NPV = $23.97 and IRR = 22.5%. Project B has NPV = $13.64 and IRR = 25.0%. Which project should be preferred?",
+      "back": "Project A should be preferred because it has the higher NPV. It creates $10.33 more firm value than Project B."
+    },
+    {
+      "id": "m8-card-022",
+      "front": "What is modified IRR, or MIRR?",
+      "back": "MIRR adjusts IRR to eliminate the multiple-solution problem by using the WACC as the reinvestment rate."
+    },
+    {
+      "id": "m8-card-023",
+      "front": "What is the MIRR formula relationship?",
+      "back": "PV of negative cash flows = FV of positive cash flows / (1 + MIRR)^n."
+    },
+    {
+      "id": "m8-card-024",
+      "front": "How is MIRR calculated conceptually?",
+      "back": "Discount negative cash flows to year 0 at the WACC, compound positive cash flows forward to year n at the WACC, and solve for MIRR."
+    },
+    {
+      "id": "m8-card-025",
+      "front": "Why does MIRR fix a key problem with IRR?",
+      "back": "MIRR produces one solution and avoids IRR's multiple-solution problem."
+    },
+
+    {
+      "id": "m8-card-027",
+      "front": "What reinvestment rate does NPV assume?",
+      "back": "NPV assumes reinvestment at the WACC, which is considered realistic because it is conservative and market-based."
+    },
+    {
+      "id": "m8-card-028",
+      "front": "What reinvestment rate does IRR assume?",
+      "back": "IRR assumes reinvestment at the IRR itself, which is often unrealistic because it may be too high."
+    },
+    {
+      "id": "m8-card-029",
+      "front": "What reinvestment rate does MIRR assume?",
+      "back": "MIRR assumes reinvestment at the WACC, the same assumption used by NPV."
+    },
+    {
+      "id": "m8-card-030",
+      "front": "What cash flows should be included in a project evaluation?",
+      "back": "Only cash flows caused by the project should be included: nothing more, nothing less."
+    },
+    {
+      "id": "m8-card-031",
+      "front": "Why is project evaluation described as forward-looking?",
+      "back": "It focuses only on future cash flows affected by the decision, not costs or revenues that have already occurred."
+    },
+    {
+      "id": "m8-card-032",
+      "front": "Should opportunity costs be included in project cash flow analysis?",
+      "back": "Yes. A cash flow should be included if it is caused by the project, even if accountants ignore it, such as the opportunity cost of an existing asset."
+    },
+    {
+      "id": "m8-card-033",
+      "front": "What are sunk costs, and should they be included in project evaluation?",
+      "back": "Sunk costs are costs already incurred that cannot be recovered regardless of the decision. They should be excluded."
+    },
+    {
+      "id": "m8-card-034",
+      "front": "Why should sunk costs be excluded from capital budgeting analysis?",
+      "back": "They have already been incurred and cannot be changed by accepting or rejecting the project."
+    },
+    {
+      "id": "m8-card-035",
+      "front": "How should effects on the firm's existing products be treated in project evaluation?",
+      "back": "Effects on other parts of the firm are relevant. Lost or gained revenue from existing products caused by the new project should be included."
+    },
+    {
+      "id": "m8-card-036",
+      "front": "Are external social effects included in project cash flow analysis?",
+      "back": "No. Only effects on other parts of the firm are relevant; external social effects are excluded."
+    }
+  ]
+}

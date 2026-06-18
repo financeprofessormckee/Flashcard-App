@@ -1,0 +1,149 @@
+{
+  "id": "module-12",
+  "title": "Module 13: Multinational Finance",
+  "cards": [
+    {
+      "id": "m12-card-001",
+      "front": "What is the foreign exchange market?",
+      "back": "It is the global market for buying and selling currencies, and it is the largest financial market in the world."
+    },
+    {
+      "id": "m12-card-002",
+      "front": "Who participates in the foreign exchange market?",
+      "back": "Participants include corporations importing or exporting goods, investors buying foreign assets, and speculators seeking profit from exchange rate movements."
+    },
+    {
+      "id": "m12-card-003",
+      "front": "What factors drive exchange rates?",
+      "back": "Exchange rates are driven by perceived country risk, inflation differentials, interest rate differentials, and supply and demand for each currency."
+    },
+    {
+      "id": "m12-card-004",
+      "front": "What is a direct exchange rate quote?",
+      "back": "A direct quote gives the amount of USD needed to buy 1 unit of foreign currency."
+    },
+    {
+      "id": "m12-card-005",
+      "front": "What does a EUR direct quote of $1.20 mean?",
+      "back": "It means $1.20 buys 1 euro."
+    },
+    {
+      "id": "m12-card-006",
+      "front": "What is an indirect exchange rate quote?",
+      "back": "An indirect quote gives the number of foreign currency units needed to buy $1."
+    },
+    {
+      "id": "m12-card-007",
+      "front": "What does a JPY indirect quote of 80 mean?",
+      "back": "It means 80 yen buys $1."
+    },
+    {
+      "id": "m12-card-008",
+      "front": "What is the relationship between direct and indirect exchange rate quotes?",
+      "back": "Direct and indirect quotes are reciprocals: Direct = 1 / Indirect."
+    },
+    {
+      "id": "m12-card-009",
+      "front": "Which exchange rate quote convention is commonly used in the United States?",
+      "back": "The United States commonly uses indirect quotes, which state foreign currency units per USD."
+    },
+
+    {
+      "id": "m12-card-012",
+      "front": "If the USD strengthens, what happens to indirect and direct exchange rate quotes?",
+      "back": "The indirect quote rises because more foreign units are received per $1, while the direct quote falls because fewer dollars are needed per foreign currency unit."
+    },
+    {
+      "id": "m12-card-013",
+      "front": "If the USD weakens, what happens to indirect and direct exchange rate quotes?",
+      "back": "The indirect quote falls, while the direct quote rises."
+    },
+
+    {
+      "id": "m12-card-016",
+      "front": "What is a cross rate?",
+      "back": "A cross rate is an exchange rate between two currencies found by converting through a third currency, often USD."
+    },
+
+    {
+      "id": "m12-card-019",
+      "front": "How does arbitrage enforce consistency among cross rates?",
+      "back": "If exchange rates are inconsistent, traders can make riskless profits by converting through different paths. Their trades push rates back into consistency."
+    },
+    {
+      "id": "m12-card-020",
+      "front": "If $1 converts directly to 100 pesos but a cross rate implies $1 = 110 pesos, what arbitrage profit is possible?",
+      "back": "An arbitrageur could borrow 100 pesos, convert to $1, convert through the cross rate to 110 pesos, repay 100 pesos, and keep 10 pesos."
+    },
+    {
+      "id": "m12-card-021",
+      "front": "What happens to a firm's imports and exports when the USD strengthens?",
+      "back": "Imports become cheaper, while exports become weaker because U.S. goods become more expensive to foreign buyers."
+    },
+    {
+      "id": "m12-card-022",
+      "front": "What is the spot market in foreign exchange?",
+      "back": "The spot market is where currencies are exchanged immediately at the current market rate."
+    },
+    {
+      "id": "m12-card-023",
+      "front": "What exchange rate risk does a firm face in the spot market?",
+      "back": "The firm bears full exchange rate risk until the transaction occurs."
+    },
+    {
+      "id": "m12-card-024",
+      "front": "What is the futures or forwards market in foreign exchange?",
+      "back": "It is a market where a rate is locked in today for a future currency exchange."
+    },
+    {
+      "id": "m12-card-025",
+      "front": "How do futures and forwards help manage exchange rate risk?",
+      "back": "They eliminate rate uncertainty for planned transactions by locking in an exchange rate today."
+    },
+    {
+      "id": "m12-card-026",
+      "front": "What is exchange rate risk for a foreign investment?",
+      "back": "It is the risk that the investment's value changes when converted back into domestic currency."
+    },
+    {
+      "id": "m12-card-027",
+      "front": "What is expropriation risk?",
+      "back": "Expropriation occurs when a government seizes or forces the sale of foreign-owned assets."
+    },
+    {
+      "id": "m12-card-028",
+      "front": "What are currency controls?",
+      "back": "Currency controls are restrictions on converting profits into domestic currency."
+    },
+    {
+      "id": "m12-card-029",
+      "front": "How can tax rate differences across countries affect foreign investments?",
+      "back": "Different tax rates affect the after-tax returns earned from foreign investments."
+    },
+    {
+      "id": "m12-card-030",
+      "front": "What is the Law of One Price?",
+      "back": "After converting for exchange rates, equivalent financial assets in different countries should have the same price."
+    },
+    {
+      "id": "m12-card-031",
+      "front": "Why does the Law of One Price hold in financial markets?",
+      "back": "If equivalent assets have different prices after currency conversion, arbitrage exploits the difference and eliminates it."
+    },
+    {
+      "id": "m12-card-032",
+      "front": "What does the Law of One Price imply about interest rates and exchange rates?",
+      "back": "Given the interest rate in one country and the current exchange rate, the equivalent interest rate in another country can be inferred."
+    },
+    {
+      "id": "m12-card-033",
+      "front": "What is a limitation of the Law of One Price?",
+      "back": "Assets with high transaction costs, such as real estate and commodities, may deviate significantly from the principle."
+    },
+    {
+      "id": "m12-card-034",
+      "front": "What is Interest Rate Parity?",
+      "back": "Interest Rate Parity is the financial market form of the Law of One Price, where rates adjust so identical risk-free investments yield the same return worldwide."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "module-9",
+  "title": "Module 10: Cost of Capital",
+  "cards": [
+    { "id": "m9-card-001", "front": "What is cost of capital?", "back": "Cost of capital is the rate of return a firm must pay to attract and retain each source of financing." },
+    { "id": "m9-card-002", "front": "How does WACC connect capital structure to capital budgeting?", "back": "WACC is the discount rate, r, used in the NPV formula for evaluating projects." },
+
+    { "id": "m9-card-004", "front": "In the WACC formula, what do wd, we, and wp represent?", "back": "They are the weights of debt, common equity, and preferred stock in the firm's capital structure. The weights sum to 1." },
+    { "id": "m9-card-005", "front": "Should WACC use market value weights or book value weights?", "back": "WACC weights should be based on market values, not book values." },
+    { "id": "m9-card-006", "front": "If a firm has no preferred stock, what value is used for its weight in the WACC formula?", "back": "If preferred stock is absent, wp = 0." },
+    { "id": "m9-card-007", "front": "Why is WACC not usually a simple average of financing costs?", "back": "Each component's influence should be based on its weight in the firm's capital structure, not counted equally." },
+
+    { "id": "m9-card-009", "front": "What is the starting point for estimating a firm's cost of debt?", "back": "The firm's yield to maturity, or YTM, on existing bonds is the starting point." },
+    { "id": "m9-card-010", "front": "Why does YTM represent the firm's cost of debt?", "back": "YTM equals the return investors require, which is the same rate the firm pays to borrow." },
+
+    { "id": "m9-card-012", "front": "How can the cost of common equity be estimated?", "back": "The cost of common equity, re, can be estimated using the dividend discount model, DDM, or the capital asset pricing model, CAPM." },
+  { "id": "m9-card-023", "front": "When is a firm's WACC the correct discount rate for a new project?", "back": "It is appropriate only if the new project has risk similar to the firm's existing operations, the firm keeps the same debt-equity proportions, and the project is small relative to the firm." },
+  { "id": "m9-card-024", "front": "Why is firm-wide WACC not always appropriate for every project?", "back": "Firm-wide WACC reflects the risk and capital structure of the entire firm's historical projects, so it may not match the risk of a specific new project." },
+  { "id": "m9-card-025", "front": "What happens if a firm uses its WACC to evaluate a project that is riskier than its existing operations?", "back": "Using the firm's WACC understates the required return, making the risky project look more attractive than it really is." },
+  { "id": "m9-card-026", "front": "Why should Amazon not automatically use the same 9% firm-wide WACC for both an AWS data center and a delivery warehouse?", "back": "AWS, retail, and logistics may have different risks, so each project should use a discount rate that matches its own risk rather than automatically using the firm-wide WACC." },
+
+
+  { "id": "m9-card-029", "front": "What should a firm use when evaluating a project in a different industry from its existing operations?", "back": "It should use a pure-play WACC based on comparable firms in that industry when possible." },
+  { "id": "m9-card-030", "front": "What does WACC represent in capital budgeting?", "back": "WACC is the firm's overall discount rate for evaluating projects and is used as r in the NPV formula." }
+]
+}

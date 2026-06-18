@@ -1,0 +1,73 @@
+[
+  {
+    "id": "fin6300",
+    "title": "FIN 6300: Managerial Finance",
+    "modules": [
+      {
+        "id": "module-0",
+        "title": "Module 1: Introduction",
+        "file": "fin6300module0.json"
+      },
+      {
+        "id": "module-1",
+        "title": "Module 2: Financial Markets",
+        "file": "fin6300module1.json"
+      },
+      {
+        "id": "module-2",
+        "title": "Module 3: Financial Statement Analysis",
+        "file": "fin6300module2.json"
+      },
+      {
+        "id": "module-3",
+        "title": "Module 4: Interest Rates",
+        "file": "fin6300module3.json"
+      },
+      {
+        "id": "module-4",
+        "title": "Module 5: Time Value of Money",
+        "file": "fin6300module4.json"
+      },
+      {
+        "id": "module-5",
+        "title": "Module 6: Bond Valuation",
+        "file": "fin6300module5.json"
+      },
+      {
+        "id": "module-6",
+        "title": "Module 7: Stock Valuation",
+        "file": "fin6300module6.json"
+      },
+      {
+        "id": "module-7",
+        "title": "Module 8: Risk and Return",
+        "file": "fin6300module7.json"
+      },
+      {
+        "id": "module-8",
+        "title": "Module 9: Capital Budgeting",
+        "file": "fin6300module8.json"
+      },
+      {
+        "id": "module-9",
+        "title": "Module 10: Cost of Capital",
+        "file": "fin6300module9.json"
+      },
+      {
+        "id": "module-10",
+        "title": "Module 11: Capital Structure",
+        "file": "fin6300module10.json"
+      },
+      {
+        "id": "module-11",
+        "title": "Module 12: Working Capital Management",
+        "file": "fin6300module11.json"
+      },
+      {
+        "id": "module-12",
+        "title": "Module 13: Multinational Finance",
+        "file": "fin6300module12.json"
+      }
+    ]
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "id": "module-3",
+  "title": "Module 4: Interest Rates",
+  "cards": [
+    {
+      "id": "m3-card-001",
+      "front": "What is an interest rate in finance?",
+      "back": "An interest rate is the price of money itself."
+    },
+    {
+      "id": "m3-card-002",
+      "front": "When you borrow $100, what does the interest rate represent?",
+      "back": "It is the rent you pay for temporary access to that cash."
+    },
+    {
+      "id": "m3-card-003",
+      "front": "How does borrower risk affect the interest rate lenders demand?",
+      "back": "The riskier the borrower, the higher the interest rate the lender demands."
+    },
+    {
+      "id": "m3-card-004",
+      "front": "What does removing inflation from an interest rate reveal?",
+      "back": "It gives the real interest rate, which measures what the lender actually gains in purchasing power."
+    },
+    {
+      "id": "m3-card-005",
+      "front": "What is the Fisher model formula for the risk-free rate using the pure rate and inflation rate?",
+      "back": "rf = (1 + rpure)(1 + rinf) - 1."
+    },
+    {
+      "id": "m3-card-006",
+      "front": "What is the Fisher model formula for the real rate using the pure rate and risk rate?",
+      "back": "rreal = (1 + rpure)(1 + rrisk) - 1."
+    },
+    {
+      "id": "m3-card-007",
+      "front": "What is the Fisher model formula for the nominal rate using pure, inflation, and risk components?",
+      "back": "rnominal = (1 + rpure)(1 + rinf)(1 + rrisk) - 1."
+    },
+    {
+      "id": "m3-card-008",
+      "front": "What is the Fisher model formula for the nominal rate using the risk-free rate and risk rate?",
+      "back": "rnominal = (1 + rf)(1 + rrisk) - 1."
+    },
+    {
+      "id": "m3-card-009",
+      "front": "What is the Fisher model formula for the nominal rate using the real rate and inflation rate?",
+      "back": "rnominal = (1 + rreal)(1 + rinf) - 1."
+    },
+
+    {
+      "id": "m3-card-011",
+      "front": "Why is a nominal return of 11.3% with 5% inflation only a 6% real return?",
+      "back": "Inflation erodes 5% of purchasing power, so the investor gains only 6% in real terms."
+    },
+    {
+      "id": "m3-card-012",
+      "front": "Why must less liquid securities offer a liquidity-risk premium?",
+      "back": "Investors may need to raise cash quickly, and illiquid securities may not provide their full value in a forced sale."
+    },
+    {
+      "id": "m3-card-013",
+      "front": "What kinds of assets are examples of less liquid securities?",
+      "back": "Small private bonds and real estate are examples of less liquid securities."
+    },
+    {
+      "id": "m3-card-014",
+      "front": "What does the term structure of interest rates describe?",
+      "back": "It describes how interest rates vary with maturity for bonds of the same issuer and credit quality."
+    },
+    {
+      "id": "m3-card-015",
+      "front": "What is the yield curve?",
+      "back": "The yield curve is the graphical plot of the term structure of interest rates."
+    },
+    {
+      "id": "m3-card-016",
+      "front": "What is the normal shape of the yield curve?",
+      "back": "It is normally upward sloping."
+    },
+    {
+      "id": "m3-card-017",
+      "front": "Why are longer-maturity bonds normally associated with higher interest rates?",
+      "back": "Longer maturities carry higher rates because of maturity-risk exposure."
+    },
+    {
+      "id": "m3-card-018",
+      "front": "What is an effective interest rate?",
+      "back": "It is the actual amount of interest earned or paid over a given period, accounting for compounding."
+    },
+    {
+      "id": "m3-card-019",
+      "front": "What is the most common effective interest rate?",
+      "back": "The Effective Annual Rate, or EAR, is the most common."
+    },
+
+
+
+    {
+      "id": "m3-card-024",
+      "front": "How can a monthly rate of 0.7974% be verified as equivalent to a 10% annual effective rate?",
+      "back": "(1.007974)^12 = 1.10, confirming a 10% effective annual rate."
+    },
+    {
+      "id": "m3-card-025",
+      "front": "What is the Annual Percentage Rate, or APR?",
+      "back": "APR is a quoted interest rate that uses simple, non-compounding interest."
+    },
+    {
+      "id": "m3-card-026",
+      "front": "What is the formula for APR using the periodic rate?",
+      "back": "APR = periodic rate x number of periods per year."
+    },
+    {
+      "id": "m3-card-027",
+      "front": "Why is APR always paired with a compounding frequency?",
+      "back": "The compounding frequency tells how often the periodic rate is applied, such as monthly or annually."
+    },
+    {
+      "id": "m3-card-028",
+      "front": "What does the quote \"6% APR compounded monthly\" specify?",
+      "back": "It specifies an APR of 6% and a monthly compounding frequency."
+    },
+    {
+      "id": "m3-card-029",
+      "front": "Where is APR commonly used?",
+      "back": "APR is common in consumer contracts such as mortgages, car loans, credit cards, and savings accounts."
+    },
+    {
+      "id": "m3-card-030",
+      "front": "How does EAR usually compare with APR?",
+      "back": "The EAR is almost always greater than or equal to the APR, and they are equal only when compounding is annual."
+    }
+
+
+  ]
+}

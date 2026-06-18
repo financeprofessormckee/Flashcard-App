@@ -1,0 +1,164 @@
+{
+  "id": "module-5",
+  "title": "Module 6: Bond Valuation",
+  "cards": [
+    {
+      "id": "m5-card-001",
+      "front": "What is a bond?",
+      "back": "A bond is a long-term debt security in which the issuer borrows money and promises to repay it."
+    },
+    {
+      "id": "m5-card-002",
+      "front": "What cash flows does a typical bond issuer promise to bondholders?",
+      "back": "The issuer promises regular coupon payments and repayment of the face value at maturity."
+    },
+    {
+      "id": "m5-card-003",
+      "front": "Why can bondholders sell a bond before maturity?",
+      "back": "Bonds trade freely in secondary markets, so lenders can sell them before maturity."
+    },
+    {
+      "id": "m5-card-004",
+      "front": "What does a bond's market price reflect?",
+      "back": "A bond's market price reflects the current required return, called the yield to maturity (YTM)."
+    },
+    {
+      "id": "m5-card-005",
+      "front": "What is a secured bond?",
+      "back": "A secured bond is backed by specific collateral."
+    },
+    {
+      "id": "m5-card-006",
+      "front": "What is a convertible bond?",
+      "back": "A convertible bond gives the holder the option to convert the bond into shares of stock at a specified price."
+    },
+    {
+      "id": "m5-card-007",
+      "front": "Why can an issuer offer a lower coupon rate on a convertible bond?",
+      "back": "The conversion option benefits the bondholder, so the issuer can offer a lower coupon rate in exchange for granting that option."
+    },
+    {
+      "id": "m5-card-008",
+      "front": "What is a zero-coupon bond?",
+      "back": "A zero-coupon bond makes no coupon payments and pays only the face value at maturity."
+    },
+    {
+      "id": "m5-card-009",
+      "front": "What is a coupon payment?",
+      "back": "A coupon payment is the periodic interest payment made to bondholders."
+    },
+    {
+      "id": "m5-card-010",
+      "front": "How is the periodic coupon payment calculated?",
+      "back": "C = coupon rate x par value / periods per year."
+    },
+    {
+      "id": "m5-card-011",
+      "front": "How often do most bonds pay coupons?",
+      "back": "Most bonds pay coupons every six months, or semiannually."
+    },
+    {
+      "id": "m5-card-012",
+      "front": "In time value of money calculations for a bond, what does the coupon represent?",
+      "back": "The coupon is the PMT in TVM calculations."
+    },
+    {
+      "id": "m5-card-013",
+      "front": "What is the coupon rate?",
+      "back": "The coupon rate is the annual interest rate set by the issuer at issuance and fixed for the life of the bond."
+    },
+    {
+      "id": "m5-card-014",
+      "front": "Should the coupon rate be used to discount bond cash flows?",
+      "back": "No. Bond cash flows should be discounted using the YTM, not the coupon rate."
+    },
+    {
+      "id": "m5-card-015",
+      "front": "What happens to coupon payments when market interest rates change?",
+      "back": "Coupon payments do not change; the bond's market price changes instead."
+    },
+    {
+      "id": "m5-card-016",
+      "front": "What is the core principle of bond valuation?",
+      "back": "The correct price of a bond is the present value of its future cash flows: Price = PV(bond cash flows)."
+    },
+    {
+      "id": "m5-card-017",
+      "front": "Why must a bond's price equal the present value of its cash flows in an efficient market?",
+      "back": "If price did not equal PV(cash flows), an arbitrage opportunity would exist, and markets would eliminate it quickly."
+    },
+    {
+      "id": "m5-card-018",
+      "front": "What are the two cash flow components of every coupon bond?",
+      "back": "A coupon bond has an annuity of coupon payments and a lump sum face value paid at maturity."
+    },
+
+    {
+      "id": "m5-card-020",
+      "front": "In the coupon bond pricing formula, what do C, r, n, and FV represent?",
+      "back": "C is the coupon payment per period, r is the YTM per period, n is the number of periods to maturity, and FV is the par value."
+    },
+    {
+      "id": "m5-card-021",
+      "front": "What two present value parts make up the price of a coupon bond?",
+      "back": "Bond price = PV of coupons + PV of par value."
+    },
+    {
+      "id": "m5-card-022",
+      "front": "What discount rate should be used for corporate bonds with default risk?",
+      "back": "For corporate bonds, add a credit spread to the discount rate to account for default risk."
+    },
+    {
+      "id": "m5-card-023",
+      "front": "How do you value a zero-coupon bond?",
+      "back": "P0 = FV/(1 + r)^n, because the only cash flow is the face value at maturity."
+    },
+
+    {
+      "id": "m5-card-025",
+      "front": "Why does a zero-coupon bond always sell at a discount?",
+      "back": "It pays no coupons, so its price is the present value of the future face value, which is less than FV when r is positive."
+    },
+    {
+      "id": "m5-card-026",
+      "front": "What happens to a zero-coupon bond's price when r increases?",
+      "back": "A higher r lowers the price because the face value is discounted more heavily."
+    },
+    {
+      "id": "m5-card-027",
+      "front": "What is current yield?",
+      "back": "Current yield = annual coupon / price."
+    },
+
+    {
+      "id": "m5-card-030",
+      "front": "If a bond's current yield is 3.81% and its YTM is 3.40%, what does that imply about the bond's price?",
+      "back": "The bond trades above par. The investor loses the premium by maturity, which reduces total return below the current yield."
+    },
+    {
+      "id": "m5-card-031",
+      "front": "What is the relationship between bond price and YTM?",
+      "back": "Bond price and YTM are inversely related: when YTM rises, price falls; when YTM falls, price rises."
+    },
+    {
+      "id": "m5-card-032",
+      "front": "What determines whether a bond sells at a premium, par, or discount?",
+      "back": "The relationship between the coupon rate and YTM determines whether the bond sells at a premium, par, or discount."
+    },
+    {
+      "id": "m5-card-033",
+      "front": "What kind of interest rate risk do longer-maturity bonds have?",
+      "back": "Longer-maturity bonds have greater interest rate risk."
+    },
+    {
+      "id": "m5-card-034",
+      "front": "What happens to a bond's price as it approaches maturity?",
+      "back": "The bond's price converges to par over time."
+    },
+    {
+      "id": "m5-card-035",
+      "front": "If market interest rates rise after you buy a bond, what happens to the bond's price?",
+      "back": "The bond's price falls because bond prices and YTM are inversely related."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "module-6",
+  "title": "Module 7: Stock Valuation",
+  "cards": [
+    {
+      "id": "m6-card-001",
+      "front": "What is preferred stock?",
+      "back": "Preferred stock is a hybrid security that sits between bonds and common stock."
+    },
+    {
+      "id": "m6-card-002",
+      "front": "How does the risk of preferred stock compare with bonds and common stock?",
+      "back": "Preferred stock is safer than common stock but riskier than bonds, so its required return usually lies between the two."
+    },
+    {
+      "id": "m6-card-003",
+      "front": "In bankruptcy, where do preferred stockholders rank in seniority?",
+      "back": "Preferred stockholders claim assets before common stockholders but after all debtholders."
+    },
+    {
+      "id": "m6-card-004",
+      "front": "What are cumulative dividends on preferred stock?",
+      "back": "If the firm skips a preferred dividend, the unpaid amount accumulates and must be paid before any dividends go to common shareholders."
+    },
+    {
+      "id": "m6-card-005",
+      "front": "How is preferred stock valued?",
+      "back": "Preferred stock is valued as a fixed-dividend perpetuity: P0 = D / r."
+    },
+    {
+      "id": "m6-card-006",
+      "front": "In the preferred stock formula P0 = D / r, what do D and r represent?",
+      "back": "D is the fixed annual dividend payment, and r is the required rate of return."
+    },
+
+    {
+      "id": "m6-card-011",
+      "front": "What is the core valuation principle for common stock?",
+      "back": "Common stock value equals the present value of all future dividends."
+    },
+    {
+      "id": "m6-card-012",
+      "front": "What does the Gordon Growth Model assume about dividends?",
+      "back": "It assumes dividends grow forever at a constant growth rate g."
+    },
+
+    {
+      "id": "m6-card-014",
+      "front": "In the Gordon Growth Model P0 = D1 / (r - g), what do D1, r, and g represent?",
+      "back": "D1 is next period's dividend, r is the equity cost of capital or required return, and g is the constant dividend growth rate."
+    },
+    {
+      "id": "m6-card-015",
+      "front": "What condition must hold for the Gordon Growth Model to work?",
+      "back": "The required return must be greater than the growth rate: r > g. If g is greater than or equal to r, the present value sum diverges."
+    },
+
+    {
+      "id": "m6-card-017",
+      "front": "If D0 is given instead of D1, how do you find D1?",
+      "back": "Grow the most recent dividend forward one period: D1 = D0 x (1 + g)."
+    },
+
+    {
+      "id": "m6-card-019",
+      "front": "Why should D1, not D0, be used in the Gordon Growth Model?",
+      "back": "D0 has already been paid. Stock value is based on future dividends, so the model discounts D1 and later dividends."
+    },
+    {
+      "id": "m6-card-020",
+      "front": "How do you solve for the required return using the Gordon Growth Model?",
+      "back": "Rearrange P0 = D1 / (r - g) to get r = D1 / P0 + g."
+    },
+
+    {
+      "id": "m6-card-023",
+      "front": "What is one limitation of the Gordon Growth Model for non-dividend-paying firms?",
+      "back": "The model gives no direct answer for stocks that do not pay dividends."
+    },
+    {
+      "id": "m6-card-024",
+      "front": "Why is the Gordon Growth Model only an approximation for many real firms?",
+      "back": "It assumes constant dividend growth forever, but real dividends are often lumpy and management may smooth payments."
+    },
+    {
+      "id": "m6-card-025",
+      "front": "When is a multi-stage dividend discount model useful?",
+      "back": "It is useful when exact near-term dividends can be forecast, followed by constant dividend growth afterward."
+    },
+    {
+      "id": "m6-card-026",
+      "front": "What are the main steps in a multi-stage dividend discount model?",
+      "back": "Discount each near-term dividend to t = 0, compute the horizon value at the start of constant growth using the Gordon Growth Model, discount the horizon value to t = 0, and sum everything."
+    },
+    {
+      "id": "m6-card-027",
+      "front": "In a multi-stage DDM, what is the horizon value?",
+      "back": "The horizon value is the present value, at the start of the constant-growth phase, of all subsequent dividends."
+    },
+
+    {
+      "id": "m6-card-030",
+      "front": "What two factors determine a firm's sustainable dividend growth rate?",
+      "back": "Dividend growth depends on how much earnings are retained and reinvested, and the return the firm earns on that reinvestment."
+    },
+    {
+      "id": "m6-card-031",
+      "front": "What is the sustainable growth rate formula?",
+      "back": "g = ROE x b, where b is the retention ratio."
+    },
+    {
+      "id": "m6-card-032",
+      "front": "How is the retention ratio b calculated from EPS and DPS?",
+      "back": "b = (EPS - DPS) / EPS."
+    },
+    {
+      "id": "m6-card-033",
+      "front": "How is the retention ratio related to the dividend payout ratio?",
+      "back": "b = 1 - dividend payout ratio."
+    },
+    {
+      "id": "m6-card-034",
+      "front": "What assumptions are needed for the sustainable growth rate formula g = ROE x b?",
+      "back": "It assumes constant ROE and a constant retention ratio indefinitely."
+    },
+    {
+      "id": "m6-card-035",
+      "front": "When does retaining earnings increase firm value?",
+      "back": "Retaining earnings increases value when ROE is greater than the required return r."
+    },
+    {
+      "id": "m6-card-036",
+      "front": "When does retaining earnings decrease firm value?",
+      "back": "Retaining earnings decreases value when ROE is less than the required return r; in that case, paying out to shareholders is better."
+    }
+  ]
+}
