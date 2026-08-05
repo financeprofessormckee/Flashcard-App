@@ -12,6 +12,7 @@
           async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
   <!-- WT COB institutional masthead (shared) -->
   <header class="cob-brand" role="banner">
     <div class="cob-brand__inner">
@@ -24,7 +25,7 @@
     <div class="cob-brand__rule"></div>
   </header>
 
-  <main class="app">
+  <main class="app" id="main">
     <header class="header">
       <div class="header__text">
         <h1 class="header__title">Course Flashcards</h1>
@@ -57,7 +58,7 @@
     </div>
 
     <button id="card" type="button" class="card" disabled>
-      <span id="cardText" class="card__text">Choose a course and module to begin.</span>
+      <span id="cardText" class="card__text" aria-live="polite">Choose a course and module to begin.</span>
       <span id="cardSide" class="card__side" aria-hidden="true"></span>
     </button>
 

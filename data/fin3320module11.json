@@ -1,0 +1,236 @@
+{
+  "id": "module-11",
+  "title": "Module 12: Dividend Policy",
+  "cards": [
+    {
+      "id": "m11-card-001",
+      "front": "What is the central dividend policy question for a firm?",
+      "back": "The firm must decide whether to pay dividends at all and, if so, how large the dividend should be."
+    },
+    {
+      "id": "m11-card-002",
+      "front": "What dividend policy should a firm choose?",
+      "back": "The firm should choose the dividend policy that maximizes shareholder value."
+    },
+    {
+      "id": "m11-card-003",
+      "front": "What are the three classic theories of dividend policy?",
+      "back": "The three classic theories are dividend irrelevance, high-dividend theory, and tax-driven low dividends."
+    },
+    {
+      "id": "m11-card-004",
+      "front": "What does dividend irrelevance theory say about dividends and firm value?",
+      "back": "In a frictionless market with no taxes, no transaction costs, and fixed investment policy, dividends do not affect firm value."
+    },
+    {
+      "id": "m11-card-005",
+      "front": "Why do dividends not affect free cash flow under dividend irrelevance theory?",
+      "back": "All cash flows the firm creates occur before dividends are paid, so changing how cash is distributed to shareholders does not change free cash flow."
+    },
+    {
+      "id": "m11-card-006",
+      "front": "What is a homemade dividend?",
+      "back": "A homemade dividend is when investors create their own cash flow by selling a small fraction of their equity position instead of relying on the firm to pay a dividend."
+    },
+    {
+      "id": "m11-card-007",
+      "front": "Why might homemade dividends be better tailored than firm-paid dividends?",
+      "back": "Investors can adjust homemade dividends to their own personal cash-flow needs instead of receiving a one-size-fits-all payment."
+    },
+    {
+      "id": "m11-card-008",
+      "front": "What strong assumptions limit dividend irrelevance theory?",
+      "back": "It assumes no taxes, no transaction costs, fixed investment policy, and that investors can easily sell shares when they need cash."
+    },
+    {
+      "id": "m11-card-009",
+      "front": "Why can selling shares to create homemade dividends be unrealistic for some investors?",
+      "back": "Selling part of an investment requires financial knowledge and the ability to sell, and some investors may not be allowed to sell."
+    },
+    {
+      "id": "m11-card-010",
+      "front": "How do transaction costs weaken dividend irrelevance theory?",
+      "back": "Repeatedly selling shares can be expensive, especially across every holding in a diversified portfolio."
+    },
+    {
+      "id": "m11-card-011",
+      "front": "What does the tax-driven low-dividend theory argue?",
+      "back": "It argues that decreasing dividends can increase shareholder value because investors care about after-tax cash flow."
+    },
+    {
+      "id": "m11-card-012",
+      "front": "Why do shareholders care about after-tax cash flow rather than just the firm's free cash flow?",
+      "back": "Shareholders ultimately benefit from the cash they receive after taxes, not merely from the firm's total free cash flow."
+    },
+    {
+      "id": "m11-card-013",
+      "front": "Why can taxes make investors prefer low or no dividends?",
+      "back": "Dividend taxes are paid immediately, while capital gains taxes are deferred until shares are sold."
+    },
+    {
+      "id": "m11-card-014",
+      "front": "How does capital gains tax deferral benefit shareholders?",
+      "back": "Shareholders can let gains accumulate tax-free until realized and may time the sale for a lower marginal tax rate."
+    },
+    {
+      "id": "m11-card-015",
+      "front": "How do today's qualified dividend and capital gains tax rates affect the tax argument for low dividends?",
+      "back": "Qualified dividend and capital gains rates are currently equal, so the remaining tax advantage of low dividends comes mainly from deferral."
+    },
+    {
+      "id": "m11-card-016",
+      "front": "Which dividend theory is fully correct?",
+      "back": "No single theory fully explains the dividend policy a firm should choose; the answer depends on the situation."
+    },
+    {
+      "id": "m11-card-017",
+      "front": "What is a key takeaway about dividends and free cash flow?",
+      "back": "Dividends do not change free cash flow; they signal it."
+    },
+    {
+      "id": "m11-card-018",
+      "front": "What five additional effects shape dividend policy beyond the three classic theories?",
+      "back": "Residual dividend theory, clientele effect, information effect, agency costs, and expectations."
+    },
+    {
+      "id": "m11-card-019",
+      "front": "What is residual dividend theory?",
+      "back": "Residual dividend theory says the firm should fund investment needs from retained earnings first and pay out only what is left over as dividends."
+    },
+    {
+      "id": "m11-card-020",
+      "front": "Under residual dividend theory, why are dividends based on investment and capital-budgeting needs?",
+      "back": "Cash paid as dividends cannot remain in retained earnings to finance new projects."
+    },
+    {
+      "id": "m11-card-021",
+      "front": "Why can using retained earnings instead of issuing new shares raise firm value?",
+      "back": "Using retained earnings instead of new shares can lower the cost of capital, which raises firm value."
+    },
+    {
+      "id": "m11-card-022",
+      "front": "Under residual dividend theory, what should a firm do if equity needs are greater than or equal to available earnings?",
+      "back": "It should retain all available earnings and pay no dividend."
+    },
+    {
+      "id": "m11-card-023",
+      "front": "Under residual dividend theory, what should a firm do if equity needs are less than available earnings?",
+      "back": "It should retain enough earnings to fund the capital budget and pay out the residual as dividends."
+    },
+    {
+      "id": "m11-card-024",
+      "front": "A firm has net income of $100M, a $120M capital budget, and a target capital structure of 60% equity and 40% debt. How much equity is needed?",
+      "back": "Equity needed = 0.60 x $120M = $72M."
+    },
+    {
+      "id": "m11-card-025",
+      "front": "A firm has net income of $100M and needs $72M of equity for its capital budget. What is the residual dividend?",
+      "back": "Residual dividend = $100M - $72M = $28M."
+    },
+    {
+      "id": "m11-card-026",
+      "front": "If a firm pays a $28M dividend from $100M of net income, what is its payout ratio?",
+      "back": "Payout ratio = $28M / $100M = 28%."
+    },
+    {
+      "id": "m11-card-027",
+      "front": "Under residual dividend theory, would a fast-growing firm with huge investment needs likely pay dividends?",
+      "back": "It may pay little or no dividend because most or all earnings may be needed to fund investment projects."
+    },
+    {
+      "id": "m11-card-028",
+      "front": "What is the clientele effect?",
+      "back": "Different investors prefer different dividend policies and self-select into stocks that match their preferences."
+    },
+    {
+      "id": "m11-card-029",
+      "front": "What type of investor might prefer higher dividends?",
+      "back": "Investors who need fixed cash flow now, such as retirees, may prefer higher dividends."
+    },
+    {
+      "id": "m11-card-030",
+      "front": "What type of investor might prefer low dividends?",
+      "back": "Investors who want to defer taxes through capital gains may prefer low dividends."
+    },
+    {
+      "id": "m11-card-031",
+      "front": "Why does the clientele effect favor dividend policy consistency?",
+      "back": "Current shareholders often chose the stock partly because of its existing dividend policy, so changing the policy can force investors to switch firms and destroy value for them."
+    },
+    {
+      "id": "m11-card-032",
+      "front": "Does the clientele effect identify the optimal dividend policy?",
+      "back": "No. It does not pin down the optimal policy, but it strongly favors being consistent."
+    },
+    {
+      "id": "m11-card-033",
+      "front": "What is the information effect in dividend policy?",
+      "back": "Dividend policy conveys new information about the firm's future cash flows and dividends."
+    },
+    {
+      "id": "m11-card-034",
+      "front": "What does expectations theory say about market reactions to dividend policy changes?",
+      "back": "Market reactions are driven by surprises, meaning the difference between the actual policy change and what the market expected."
+    },
+    {
+      "id": "m11-card-035",
+      "front": "How does the market treat an anticipated dividend policy change?",
+      "back": "An anticipated change draws little or no reaction because it is already priced in."
+    },
+    {
+      "id": "m11-card-036",
+      "front": "Why are retained earnings not enough by themselves to justify paying a dividend?",
+      "back": "Retained earnings are not the same as cash; without cash, no dividend can be paid."
+    },
+    {
+      "id": "m11-card-037",
+      "front": "Why does earnings stability make larger dividends safer?",
+      "back": "Stable earnings make management more confident that the firm can maintain larger dividends in the future."
+    },
+    {
+      "id": "m11-card-038",
+      "front": "How can dividend policy relate to maintaining control of the firm?",
+      "back": "Using retained earnings instead of issuing new stock can preserve current owners' ownership and control."
+    },
+    {
+      "id": "m11-card-039",
+      "front": "What is a constant payout ratio dividend policy?",
+      "back": "It pays a constant percentage of earnings as dividends; it is stable if earnings are stable but fluctuates when earnings fluctuate."
+    },
+    {
+      "id": "m11-card-040",
+      "front": "What is a stable dollar amount per share dividend policy?",
+      "back": "It pays a stable dollar dividend per share and raises it only when management is confident future cash flows can support the increase."
+    },
+    {
+      "id": "m11-card-041",
+      "front": "Which dividend policy do most companies choose?",
+      "back": "Most companies choose a stable dollar amount per share dividend policy."
+    },
+    {
+      "id": "m11-card-042",
+      "front": "What is a regular dividend plus a special dividend policy?",
+      "back": "The firm pays a regular dividend and adds a one-time special dividend when cash flows are abnormally high."
+    },
+    {
+      "id": "m11-card-043",
+      "front": "When is a one-time special dividend commonly used?",
+      "back": "It is used for occasional windfalls or abnormally high cash flows."
+    },
+    {
+      "id": "m11-card-044",
+      "front": "How does using cash to repurchase shares affect capital structure?",
+      "back": "Using cash to retire equity shifts the capital structure toward more debt."
+    },
+    {
+      "id": "m11-card-045",
+      "front": "Why is a share repurchase both a dividend decision and a capital-structure decision?",
+      "back": "It returns cash to shareholders like a dividend while also changing the firm's debt-equity mix."
+    },
+    {
+      "id": "m11-card-046",
+      "front": "What two issues should managers get right when choosing a share repurchase?",
+      "back": "They should get the new debt-equity mix right and return the right amount of cash."
+    }
+  ]
+}
