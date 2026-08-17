@@ -11,17 +11,24 @@ const STORAGE_PREFIX = "flashcards:v1";
 const THEME_KEY = `${STORAGE_PREFIX}:theme`;
 const LAST_SESSION_KEY = `${STORAGE_PREFIX}:lastSession`;
 
+// Sort-order priority ranks: lower sorts first. Unrated cards ("undefined")
+// are always bucketed with "medium" since they're unproven either way.
+const SORT_RANKS = {
+  hard:   { hard: 0, medium: 1, undefined: 1, easy: 2 },
+  medium: { medium: 0, undefined: 0, hard: 1, easy: 2 },
+  easy:   { easy: 0, medium: 1, undefined: 1, hard: 2 },
+};
+
 const state = {
   courses: [],
   currentCourse: null, // { id, title, modules: [{ id, title, file }] }
   currentModule: null, // { id, title, cards }
-  cards: [], // active deck (full module deck or review-only subset)
-  fullCards: [], // the module's full deck, regardless of review mode
+  cards: [], // active deck (in module order, or reordered per sortOrder)
+  fullCards: [], // the module's full deck, unfiltered
   currentIndex: 0,
   isFlipped: false,
-  known: new Set(),
-  review: new Set(),
-  reviewMode: false,
+  confidence: new Map(), // cardId -> "easy" | "medium" | "hard"
+  sortOrder: "off", // "off" | "hard" | "medium" | "easy"
 };
 
 // Cached DOM references.
@@ -30,11 +37,11 @@ const el = {};
 function cacheElements() {
   const ids = [
     "themeToggle", "courseSelect", "moduleSelect",
-    "statusPosition", "statusKnown", "statusReview",
+    "statusPosition", "statusEasy", "statusMedium", "statusHard",
     "card", "cardText", "cardSide",
     "prevBtn", "flipBtn", "nextBtn",
-    "knownBtn", "reviewBtn",
-    "shuffleBtn", "reviewModeBtn", "resetBtn",
+    "easyBtn", "mediumBtn", "hardBtn",
+    "shuffleBtn", "sortOrder", "resetBtn",
   ];
   ids.forEach((id) => { el[id] = document.getElementById(id); });
 }
@@ -176,6 +183,10 @@ async function selectModule(moduleId) {
   }
 
   loadProgress();
+  el.sortOrder.value = state.sortOrder;
+  if (state.sortOrder !== "off") {
+    state.cards = applySortOrder(state.fullCards, state.sortOrder);
+  }
   saveLastSession(state.currentCourse.id, moduleId);
   trackEvent(`module-open/${state.currentCourse.id}/${moduleId}`, "Module opened");
   enableStudyButtons();
@@ -187,10 +198,9 @@ function resetDeckState() {
   state.fullCards = [];
   state.currentIndex = 0;
   state.isFlipped = false;
-  state.known = new Set();
-  state.review = new Set();
-  state.reviewMode = false;
-  el.reviewModeBtn.textContent = "Review missed";
+  state.confidence = new Map();
+  state.sortOrder = "off";
+  el.sortOrder.value = "off";
 }
 
 /* ----------------------------- Rendering ---------------------------------- */
@@ -216,8 +226,15 @@ function updateStatus() {
   const total = state.cards.length;
   const position = total ? state.currentIndex + 1 : 0;
   el.statusPosition.textContent = `Card ${position} of ${total}`;
-  el.statusKnown.textContent = `Known: ${state.known.size}`;
-  el.statusReview.textContent = `Needs review: ${state.review.size}`;
+  let easy = 0, medium = 0, hard = 0;
+  state.confidence.forEach((level) => {
+    if (level === "easy") easy++;
+    else if (level === "medium") medium++;
+    else if (level === "hard") hard++;
+  });
+  el.statusEasy.textContent = `Easy: ${easy}`;
+  el.statusMedium.textContent = `Medium: ${medium}`;
+  el.statusHard.textContent = `Hard: ${hard}`;
 }
 
 /* ----------------------------- Card actions ------------------------------- */
@@ -252,21 +269,38 @@ function currentCardId() {
   return card ? card.id : null;
 }
 
-function markKnown() {
+function setConfidence(level) {
   const id = currentCardId();
   if (!id) return;
-  state.known.add(id);
-  state.review.delete(id);
-  updateStatus();
+  state.confidence.set(id, level);
+  if (state.sortOrder !== "off") {
+    state.cards = applySortOrder(state.fullCards, state.sortOrder);
+  }
+  renderCard();
   saveProgress();
 }
 
-function markReview() {
-  const id = currentCardId();
-  if (!id) return;
-  state.review.add(id);
-  state.known.delete(id);
-  updateStatus();
+// Stable sort of a deck copy by confidence rank for the given order.
+// "off" returns the deck unchanged (original module order).
+function applySortOrder(cards, order) {
+  if (order === "off") return cards.slice();
+  const ranks = SORT_RANKS[order];
+  return cards
+    .map((card, index) => ({ card, index }))
+    .sort((a, b) => {
+      const rankA = ranks[state.confidence.get(a.card.id)];
+      const rankB = ranks[state.confidence.get(b.card.id)];
+      return rankA - rankB || a.index - b.index;
+    })
+    .map((entry) => entry.card);
+}
+
+function changeSortOrder(order) {
+  state.sortOrder = order;
+  state.cards = applySortOrder(state.fullCards, order);
+  state.currentIndex = 0;
+  state.isFlipped = false;
+  renderCard();
   saveProgress();
 }
 
@@ -283,26 +317,6 @@ function shuffleCards() {
   saveProgress();
 }
 
-function toggleReviewOnly() {
-  if (!state.reviewMode) {
-    if (state.review.size === 0) {
-      window.alert("No cards marked for review yet.");
-      return;
-    }
-    state.cards = state.fullCards.filter((c) => state.review.has(c.id));
-    state.reviewMode = true;
-    el.reviewModeBtn.textContent = "Show all cards";
-  } else {
-    state.cards = state.fullCards.slice();
-    state.reviewMode = false;
-    el.reviewModeBtn.textContent = "Review missed";
-  }
-  state.currentIndex = 0;
-  state.isFlipped = false;
-  renderCard();
-  saveProgress();
-}
-
 function resetProgress() {
   if (!state.currentModule) return;
   if (!window.confirm("Reset progress for this module?")) return;
@@ -312,13 +326,12 @@ function resetProgress() {
   } catch (e) {
     /* storage unavailable — nothing to remove */
   }
-  state.known = new Set();
-  state.review = new Set();
+  state.confidence = new Map();
+  state.sortOrder = "off";
+  el.sortOrder.value = "off";
   state.cards = state.fullCards.slice();
   state.currentIndex = 0;
   state.isFlipped = false;
-  state.reviewMode = false;
-  el.reviewModeBtn.textContent = "Review missed";
   renderCard();
 }
 
@@ -328,11 +341,13 @@ function storageKey() {
   return `${STORAGE_PREFIX}:${state.currentCourse.id}:${state.currentModule.id}`;
 }
 
+const VALID_SORT_ORDERS = new Set(["off", "hard", "medium", "easy"]);
+
 function saveProgress() {
   if (!state.currentCourse || !state.currentModule) return;
   const payload = {
-    known: Array.from(state.known),
-    review: Array.from(state.review),
+    confidence: Object.fromEntries(state.confidence),
+    sortOrder: state.sortOrder,
     lastIndex: state.currentIndex,
     updatedAt: new Date().toISOString(),
   };
@@ -354,8 +369,19 @@ function loadProgress() {
 
   try {
     const data = JSON.parse(raw);
-    state.known = new Set(Array.isArray(data.known) ? data.known : []);
-    state.review = new Set(Array.isArray(data.review) ? data.review : []);
+    if (data.confidence && typeof data.confidence === "object") {
+      state.confidence = new Map(Object.entries(data.confidence));
+    } else {
+      // Migrate the old binary known/review schema to the 3-level one.
+      state.confidence = new Map();
+      if (Array.isArray(data.known)) {
+        data.known.forEach((id) => state.confidence.set(id, "easy"));
+      }
+      if (Array.isArray(data.review)) {
+        data.review.forEach((id) => state.confidence.set(id, "hard"));
+      }
+    }
+    state.sortOrder = VALID_SORT_ORDERS.has(data.sortOrder) ? data.sortOrder : "off";
     const idx = Number.isInteger(data.lastIndex) ? data.lastIndex : 0;
     state.currentIndex = Math.min(Math.max(idx, 0), state.cards.length - 1);
   } catch (err) {
@@ -410,8 +436,8 @@ async function restoreLastSession() {
 function studyButtons() {
   return [
     el.card, el.prevBtn, el.flipBtn, el.nextBtn,
-    el.knownBtn, el.reviewBtn,
-    el.shuffleBtn, el.reviewModeBtn, el.resetBtn,
+    el.easyBtn, el.mediumBtn, el.hardBtn,
+    el.shuffleBtn, el.sortOrder, el.resetBtn,
   ];
 }
 
@@ -452,10 +478,11 @@ function bindEvents() {
   el.flipBtn.addEventListener("click", flipCard);
   el.prevBtn.addEventListener("click", previousCard);
   el.nextBtn.addEventListener("click", nextCard);
-  el.knownBtn.addEventListener("click", markKnown);
-  el.reviewBtn.addEventListener("click", markReview);
+  el.easyBtn.addEventListener("click", () => setConfidence("easy"));
+  el.mediumBtn.addEventListener("click", () => setConfidence("medium"));
+  el.hardBtn.addEventListener("click", () => setConfidence("hard"));
   el.shuffleBtn.addEventListener("click", shuffleCards);
-  el.reviewModeBtn.addEventListener("click", toggleReviewOnly);
+  el.sortOrder.addEventListener("change", (e) => changeSortOrder(e.target.value));
   el.resetBtn.addEventListener("click", resetProgress);
 
   document.addEventListener("keydown", handleKeydown);
@@ -486,13 +513,14 @@ function handleKeydown(e) {
       e.preventDefault();
       flipCard();
       break;
-    case "k":
-    case "K":
-      markKnown();
+    case "1":
+      setConfidence("easy");
       break;
-    case "j":
-    case "J":
-      markReview();
+    case "2":
+      setConfidence("medium");
+      break;
+    case "3":
+      setConfidence("hard");
       break;
     default:
       break;

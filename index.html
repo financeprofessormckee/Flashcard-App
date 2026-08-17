@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Course Flashcards</title>
   <link rel="stylesheet" href="assets/cob-brand.css" />
-  <link rel="stylesheet" href="styles.css?v=2" />
-  <script src="app.js?v=2" defer></script>
+  <link rel="stylesheet" href="styles.css?v=3" />
+  <script src="app.js?v=3" defer></script>
   <!-- Anonymous, cookieless usage counts (GoatCounter). Replace MYCODE. -->
   <script data-goatcounter="https://epzmckee.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
@@ -53,8 +53,9 @@
 
     <div id="status" class="status" aria-live="polite">
       <span id="statusPosition">Card 0 of 0</span>
-      <span id="statusKnown">Known: 0</span>
-      <span id="statusReview">Needs review: 0</span>
+      <span id="statusEasy">Easy: 0</span>
+      <span id="statusMedium">Medium: 0</span>
+      <span id="statusHard">Hard: 0</span>
     </div>
 
     <button id="card" type="button" class="card" disabled>
@@ -68,21 +69,30 @@
       <button id="nextBtn" type="button" disabled>Next →</button>
     </section>
 
-    <section class="btn-group" aria-label="Mark this card">
-      <button id="knownBtn" type="button" class="btn-known" disabled>Knew it</button>
-      <button id="reviewBtn" type="button" class="btn-review" disabled>Needs review</button>
+    <section class="btn-group" aria-label="Rate your confidence on this card">
+      <button id="easyBtn" type="button" class="btn-easy" disabled>Easy</button>
+      <button id="mediumBtn" type="button" class="btn-medium" disabled>Medium</button>
+      <button id="hardBtn" type="button" class="btn-hard" disabled>Hard</button>
     </section>
 
     <section class="btn-group btn-group--utility" aria-label="Deck utilities">
       <button id="shuffleBtn" type="button" disabled>Shuffle</button>
-      <button id="reviewModeBtn" type="button" disabled>Review missed</button>
       <button id="resetBtn" type="button" disabled>Reset module</button>
+      <div class="control control--inline">
+        <label for="sortOrder">Sort by confidence</label>
+        <select id="sortOrder" disabled>
+          <option value="off">No sorting</option>
+          <option value="hard">Hardest first</option>
+          <option value="medium">Medium first</option>
+          <option value="easy">Easiest first</option>
+        </select>
+      </div>
     </section>
 
     <footer class="footer">
       <p>Progress is saved only in this browser. Your instructor cannot see your individual results.</p>
       <p>Anonymous, aggregate usage (visits and card activity) is counted to gauge overall use — no personal data is collected.</p>
-      <p class="footer__hint">Keyboard: ← / → move, Space or Enter flips, K = Knew it, J = Needs review.</p>
+      <p class="footer__hint">Keyboard: ← / → move, Space or Enter flips, 1 = Easy, 2 = Medium, 3 = Hard.</p>
     </footer>
   </main>
 </body>

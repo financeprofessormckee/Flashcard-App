@@ -9,12 +9,15 @@
   --shadow: 0 2px 8px rgba(20, 30, 50, 0.08);
   --accent: #2f5fd0;
   --accent-text: #ffffff;
-  --known-bg: #e3f3e6;
-  --known-border: #4a9d5e;
-  --known-text: #1f5b30;
-  --review-bg: #fdeee0;
-  --review-border: #b8791f;
-  --review-text: #7a4a10;
+  --easy-bg: #e3f3e6;
+  --easy-border: #4a9d5e;
+  --easy-text: #1f5b30;
+  --medium-bg: #fdf6de;
+  --medium-border: #96790f;
+  --medium-text: #6b5710;
+  --hard-bg: #fdeee0;
+  --hard-border: #b8791f;
+  --hard-text: #7a4a10;
   --focus: #1a3c9c;
 }
 
@@ -28,12 +31,15 @@
   --shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   --accent: #5b86e8;
   --accent-text: #0c0f14;
-  --known-bg: #1f3a27;
-  --known-border: #4a9d5e;
-  --known-text: #aee3ba;
-  --review-bg: #3a2c19;
-  --review-border: #d08a2f;
-  --review-text: #f0c891;
+  --easy-bg: #1f3a27;
+  --easy-border: #4a9d5e;
+  --easy-text: #aee3ba;
+  --medium-bg: #3a3419;
+  --medium-border: #cfae35;
+  --medium-text: #ecd98f;
+  --hard-bg: #3a2c19;
+  --hard-border: #d08a2f;
+  --hard-text: #f0c891;
   --focus: #8db0ff;
 }
 
@@ -254,16 +260,42 @@ button:disabled {
   flex: 0 0 auto;
 }
 
-.btn-known {
-  background: var(--known-bg);
-  color: var(--known-text);
-  border-color: var(--known-border);
+.btn-easy {
+  background: var(--easy-bg);
+  color: var(--easy-text);
+  border-color: var(--easy-border);
 }
 
-.btn-review {
-  background: var(--review-bg);
-  color: var(--review-text);
-  border-color: var(--review-border);
+.btn-medium {
+  background: var(--medium-bg);
+  color: var(--medium-text);
+  border-color: var(--medium-border);
+}
+
+.btn-hard {
+  background: var(--hard-bg);
+  color: var(--hard-text);
+  border-color: var(--hard-border);
+}
+
+/* Utility bar: Shuffle/Reset buttons + the sort-order label+select as one row */
+.btn-group--utility {
+  align-items: center;
+}
+
+.control--inline {
+  flex: 1 1 30%;
+  gap: 0.35rem;
+}
+
+.control--inline label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.control--inline select {
+  width: auto;
+  min-height: 44px;
 }
 
 /* Focus states */
