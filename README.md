@@ -1,16 +1,16 @@
 # Course Flashcards
 
 A lightweight, static flashcard web app for reviewing course concepts. Built with
-plain HTML, CSS, and JavaScript — **no frameworks, no build step, no backend, and no
+plain HTML, CSS, and JavaScript: **no frameworks, no build step, no backend, and no
 accounts.** It runs as-is on GitHub Pages.
 
 Students pick a course and a module, flip through cards, mark each one as **Knew it**
 or **Needs review**, and their progress is saved automatically in their own browser.
 
-Individual progress stays **local to the student's browser and is never sent anywhere** —
+Individual progress stays **local to the student's browser and is never sent anywhere**;
 the instructor cannot see any student's results. The only data that leaves the browser is
 **anonymous, cookieless, aggregate usage counting** (see [Usage analytics](#usage-analytics)),
-which records totals — visits, module opens, card flips — with no IP retained and no
+which records totals (visits, module opens, card flips) with no IP retained and no
 personal or identifying information.
 
 ## Features
@@ -95,7 +95,7 @@ The `id` must be unique and stable.
 
 1. Create the module file in `data/`, e.g. `data/econ303module1.json`, with the shape
    `{ "id": "...", "title": "...", "cards": [ ... ] }` (this is exactly what the AI prompt
-   below returns — usually you just save its output).
+   below returns; usually you just save its output).
 2. Register it under the course's `modules` array in `data/courses.json`:
 
    ```json
@@ -119,7 +119,7 @@ reuse an old `id` for different content.
 
 ## How local progress works
 
-Progress is stored only in the student's browser using `localStorage` — it is never sent
+Progress is stored only in the student's browser using `localStorage`; it is never sent
 anywhere. Keys are versioned:
 
 - Per-module progress: `flashcards:v1:{courseId}:{moduleId}`
@@ -132,7 +132,7 @@ the instructor cannot see any results.
 
 ## Usage analytics
 
-To gauge how much the tool is used — without collecting any identifying information — the
+To gauge how much the tool is used without collecting any identifying information, the
 app reports **anonymous, aggregate** usage counts via
 [GoatCounter](https://www.goatcounter.com/), a free, open-source, **cookieless** analytics
 service.
@@ -142,13 +142,13 @@ service.
 - **No cookies, no accounts, no fingerprinting.** Unique visitors are derived from a
   daily-rotating hash that GoatCounter discards; **no IP address is stored** and there is
   **no persistent identifier**.
-- You (the instructor) only ever see **aggregate totals and charts** — never an individual
+- You (the instructor) only ever see **aggregate totals and charts**, never an individual
   student, and never anyone's card-by-card progress (that stays in their browser).
 - Three things are counted, all aggregate:
-  1. **Visits / unique visitors** — how many people opened the app (automatic pageview).
-  2. **Module opens** — a `module-open/{courseId}/{moduleId}` event each time a module is
+  1. **Visits / unique visitors**: how many people opened the app (automatic pageview).
+  2. **Module opens**: a `module-open/{courseId}/{moduleId}` event each time a module is
      opened, so you can see which content gets used.
-  3. **Card flips** — a `flip` event each time a card is turned to its answer, as a proxy
+  3. **Card flips**: a `flip` event each time a card is turned to its answer, as a proxy
      for how many flashcards get studied.
 
 > Because counts are fully anonymous, non-identifiable, and aggregate, this is generally
@@ -191,4 +191,4 @@ http://localhost:8000
    branch (e.g. `main`) and the `/ (root)` folder, then **Save**.
 4. Wait a moment, then visit the published URL GitHub provides.
 
-No build step or dependencies are required — GitHub Pages serves the files as-is.
+No build step or dependencies are required; GitHub Pages serves the files as-is.
